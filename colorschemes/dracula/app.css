@@ -1,0 +1,44 @@
+window#waybar.foot, window#waybar.kitty, window#waybar.Alacritty, window#waybar.urxvt{
+        background: rgba (40, 42, 54, 0.954);
+}
+
+/* Firefox & LibreWolf (catppuccin theme) */
+window#waybar.firefox, window#waybar.librewolf, window#waybar.LibreWolf, window#waybar.firedragon{
+        background: #282a36;
+}
+
+/* window#waybar.gimp{
+	background: #484848;
+	color: #ffffff;
+} */
+
+window#waybar.spotify, window#waybar.mpv, window#waybar.imv, window#waybar.glxgears{
+        background: #000000;
+	color: #fff9e8;
+}
+
+window#waybar.chromium-browser-chromium, window#waybar.chrome, window#waybar.chromium{
+        background: #fdf6e3;
+	color: #1e1e2e;
+}
+
+window#waybar.steam{
+	background:#2a2e33;
+}
+
+window#waybar.DesktopEditors{
+	background:#404040;
+}
+
+/* Discord default theme */
+window#waybar.discord{
+        background: #36393f;
+}
+
+window#waybar.neovide {
+	background: #fdf6e3;
+}
+
+window#waybar.wireshark, window#waybar.gimp{
+	background: #1e1f29;
+}
