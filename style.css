@@ -1,8 +1,8 @@
-@import url("colorschemes/dracula/style.css");
+@import url("colorschemes/noctis-lilac/style.css");
 
 * {
     border: none;
-    font-family: JetBrainsMono Nerd Font;
+    font-family: FiraCode Nerd Font;
     font-size: 10px;
 }
 
@@ -63,7 +63,7 @@ window#waybar.solo{
         background: @bg-color;
 }
 
-@import url("colorschemes/dracula/app.css");
+@import url("colorschemes/noctis-lilac/app.css");
 
 window#waybar.empty #window, window#waybar.solo #window{
 	background: transparent;
