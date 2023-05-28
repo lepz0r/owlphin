@@ -2,8 +2,8 @@
 
 * {
     border: none;
-    font-family: FiraCode Nerd Font;
-    font-size: 10px;
+    font-family: FantasqueSansM Nerd Font;
+    font-size: 14;
 }
 
 #custom-timeprefix, #custom-cpuprefix, #pulseaudio.prefix, #custom-dateprefix, #custom-cpuprefix, #custom-memoryprefix, #custom-playerctl-prefix, #custom-playerctl-prefix{
@@ -11,12 +11,9 @@
 }
 
 #custom-playerctl-prefix{
-    font-size: 11px;
+    font-size: 13px;
 }
 
-#custom-playerctl-prefix{
-    font-size: 11px;
-}
 
 #pulseaudio{
     background: @accent-color;
@@ -24,7 +21,7 @@
 }
 
 
-#tray, #custom-trayright{
+#tray, #custom-trayright, #custom-cc{
 	background: @accent-color;
 }
 
@@ -41,7 +38,7 @@ window {
     color: @fg-color;
 }
 
-#window, #clock, #custom-timeprefix, #custom-cpuprefix, #custom-memoryprefix,#cpu, #custom-dateprefix, #custom-memoryprefix, #memory, #pulseaudio, #tray, #custom-playerctl, #custom-playerctl-prefix{
+#window, #clock, #custom-timeprefix, #custom-cpuprefix, #custom-memoryprefix,#cpu, #custom-dateprefix, #custom-memoryprefix, #memory, #pulseaudio, #tray, #custom-playerctl, #custom-playerctl-prefix, #custom-cc{
 margin: 4px 0px 4px 0px;
 padding-right: 4px;
 }

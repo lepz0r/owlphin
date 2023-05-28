@@ -1,8 +1,8 @@
 {
     "height": 32,
-    "modules-left": ["sway/workspaces","custom/playerctl-prefix","custom/playerctl#suffix"],
-    "modules-center": ["sway/window"],
-    "modules-right": ["custom/cpuprefix","cpu","custom/memoryprefix","memory","custom/timeprefix","clock#time","pulseaudio#prefix","tray","custom/cc","custom/trayright"],
+    "modules-left": ["wlr/workspaces","custom/playerctl-prefix","custom/playerctl#suffix"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["custom/cpuprefix","cpu","custom/memoryprefix","memory","custom/timeprefix","clock#time","pulseaudio#prefix","tray","custom/trayright"],
     "sway/window": {
 	"format": " {} ",
         "max-length": 100,
@@ -13,7 +13,7 @@
 	"sort-by-number" : true
     },
     "hyprland/window": {
-        "format": "{}",
+        "format": " {} ",
         "separate-outputs": false
     },
     "clock#time": {
@@ -50,9 +50,9 @@
     "memory": {
     	"tooltip-format": "{used:0.2f}/{total:0.2f} GB Used"
     },
-  "custom/cpuprefix": {
-    "format": "  ",
-	  "tooltip": false
+    "custom/cpuprefix": {
+    	"format": "  ",
+	"tooltip": false
     },
     "custom/barpadding": {
      	"format": " ",
@@ -71,11 +71,6 @@
     "tray":{
      	"format": "a",
 	"spacing": 10
-    },
-  "custom/cc": {
-    "format": " 󰍜 ",
-    "on-click": "swaync-client -t ",
-    "tooltip": false
     },
     "custom/trayright": {
      	"format": " ",
