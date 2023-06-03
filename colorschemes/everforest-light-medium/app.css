@@ -1,3 +1,7 @@
+window#waybar.solo{
+        background: @bg-color;
+}
+
 window#waybar.foot, window#waybar.kitty, window#waybar.Alacritty, window#waybar.urxvt{
         background: @bg-color;
 }
@@ -16,10 +20,6 @@ window#waybar.spotify, window#waybar.mpv, window#waybar.imv, window#waybar.glxge
         background: #000000;
 	color: #fff9e8;
 }
-
-/*window#waybar.chromium-browser-chromium, window#waybar.chrome, window#waybar.chromium{
-        background: #17181e;
-}*/
 
 window#waybar.steam{
 	background:#2a2e33;

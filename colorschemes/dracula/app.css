@@ -1,3 +1,7 @@
+window#waybar.solo{
+        background: @bg-color;
+}
+
 window#waybar.foot, window#waybar.kitty, window#waybar.Alacritty, window#waybar.urxvt{
         background: rgba (40, 42, 54, 0.954);
 }

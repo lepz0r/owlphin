@@ -1,6 +1,9 @@
 /* owlphin color scheme based on Noctis VSCode theme (https://github.com/liviuschera/noctis/) */
 
-@define-color bg-color #f2f1f8;
+@define-color bg-color #e2dff6;
 @define-color bar-bg-color rgba (242,241,248, 0.9);
 @define-color fg-color #0c006b;
 @define-color accent-color #8e80ff;
+
+@define-color selected-bg-color #a599ff;
+@define-color tray-color @accent-color; 

@@ -3,3 +3,6 @@
 @define-color bg-color #282a36;
 @define-color fg-color #f8f8f2;
 @define-color accent-color #bd93f9;
+
+@define-color selected-bg-color @accent-color;
+@define-color tray-color @accent-color; 
