@@ -1,0 +1,38 @@
+/* Default app colors */
+
+window#waybar.solo{
+        background: @bar-bg-color;
+}
+
+window#waybar.foot, window#waybar.kitty, window#waybar.Alacritty, window#waybar.urxvt{
+        background: @terminal-bg-color
+}
+
+window#waybar.gimp{
+	background: #484848;
+	color: #ffffff;
+}
+
+window#waybar.spotify, window#waybar.mpv, window#waybar.imv, window#waybar.glxgears{
+        background: #000000;
+	color: #ffffff;
+}
+
+window#waybar.steam{
+	background:#2a2e33;
+	color: #b8b6b4;
+}
+
+window#waybar.DesktopEditors{
+	background:#404040;
+}
+
+/* Discord default theme */
+window#waybar.discord{
+        background: #36393f;
+        color: #f2f3f5;
+}
+
+window#waybar.wireshark, window#waybar.gimp{
+	background: @bg-color;
+}

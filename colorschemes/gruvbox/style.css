@@ -6,3 +6,5 @@
 
 @define-color selected-bg-color @accent-color;
 @define-color tray-color @accent-color; 
+@define-color bar-bg-color @bg-color;
+@define-color terminal-bg-color @bg-color;
