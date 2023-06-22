@@ -17,13 +17,13 @@
 
 
 #pulseaudio, #custom-cc{
-    background: @tray-color;
-    color: @fg-color;
+    background: @tray-bg-color;
+    color: @tray-fg-color;
 }
 
 
 #tray, #custom-trayright{
-	background: @tray-color;
+	background: @tray-bg-color;
 }
 
 #custom-trayright {
@@ -102,6 +102,7 @@ window#waybar.floating, window#waybar.tiled{
 
 #workspaces button.focused, #workspaces button.active {
     background: @selected-bg-color;
+    color: @selected-fg-color;
 }
 
 #clock {
