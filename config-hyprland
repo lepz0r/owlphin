@@ -2,7 +2,8 @@
     "height": 32,
     "modules-left": ["wlr/workspaces","custom/playerctl-prefix","custom/playerctl#suffix"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["custom/cpuprefix","cpu","custom/memoryprefix","memory","custom/timeprefix","clock#time","pulseaudio#prefix","tray","custom/trayright"],
+    "modules-right": ["custom/cpuprefix","cpu","custom/memoryprefix","memory","custom/timeprefix","clock#time","custom/cc","pulseaudio#prefix","tray","custom/trayright"],
+    "mode" : "dock",
     "sway/window": {
 	"format": " {} ",
         "max-length": 100,
@@ -64,16 +65,21 @@
     "pulseaudio#prefix": {
     	"format": "  {icon}",
     	"format-muted": "  婢",
-	"format-icons": {
+	      "format-icons": {
         	"default": ["奄","奔", "墳"]
-    	},
-    },
-    "tray":{
-     	"format": "a",
+    	  },
+  },
+  "tray":{
+   	"format": "a",
 	"spacing": 10
     },
-    "custom/trayright": {
-     	"format": " ",
+  "custom/cc": {
+    "format": " 󰍜 ",
+    "on-click": "swaync-client -t ",
+    "tooltip": false
+    },
+  "custom/trayright": {
+   	"format": " ",
 	"tooltip": false
     },
 

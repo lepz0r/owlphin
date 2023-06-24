@@ -8,4 +8,5 @@
 
 @define-color selected-bg-color @accent-color;
 @define-color selected-fg-color @bg-color;
-@define-color tray-bg-color #9673D3; 
+@define-color tray-bg-color @accent-color; 
+@define-color tray-fg-color @bg-color;
