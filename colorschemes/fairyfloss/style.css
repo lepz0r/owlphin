@@ -8,5 +8,5 @@
 
 @define-color selected-bg-color @accent-color;
 @define-color selected-fg-color @bg-color;
-@define-color tray-bg-color @accent-color; 
+@define-color tray-bg-color #C5A3FF; 
 @define-color tray-fg-color @bg-color;

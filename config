@@ -44,14 +44,14 @@
 	"tooltip": false
     },
     "custom/memoryprefix": {
-    	"format": "  ",
+    	"format": " 󰍛 ",
 	"tooltip": false
     },
     "memory": {
     	"tooltip-format": "{used:0.2f}/{total:0.2f} GB Used"
     },
   "custom/cpuprefix": {
-    "format": "  ",
+    	"format": "  ",
 	  "tooltip": false
     },
     "custom/barpadding": {
@@ -63,9 +63,9 @@
     },
     "pulseaudio#prefix": {
     	"format": "  {icon}",
-    	"format-muted": "  婢",
+    	"format-muted": " 󰝟",
 	"format-icons": {
-        	"default": ["奄","奔", "墳"]
+        	"default": ["󰕿","󰖀", "󰕾"]
     	},
     },
     "tray":{

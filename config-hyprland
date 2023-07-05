@@ -45,7 +45,7 @@
 	"tooltip": false
     },
     "custom/memoryprefix": {
-    	"format": "  ",
+    	"format": " 󰍛 ",
 	"tooltip": false
     },
     "memory": {
@@ -63,10 +63,10 @@
 	"format": "{usage}%"
     },
     "pulseaudio#prefix": {
-    	"format": "  {icon}",
-    	"format-muted": "  婢",
+    	"format": " {icon}",
+    	"format-muted": " 󰝟",
 	      "format-icons": {
-        	"default": ["奄","奔", "墳"]
+        	"default": ["󰕿","󰖀", "󰕾"]
     	  },
   },
   "tray":{

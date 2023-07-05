@@ -3,4 +3,5 @@
 /* Firefox & LibreWolf (Firefloss theme) */
 window#waybar.firefox, window#waybar.librewolf, window#waybar.LibreWolf, window#waybar.firedragon{
         background: #3a364b;
+        color: #FFB8D1;
 }
