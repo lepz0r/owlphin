@@ -2,11 +2,11 @@
 
 @define-color bg-color #232136;
 @define-color bar-bg-color @bg-color;
-@define-color terminal-bg-color rgba (35, 33, 54, 0.95);
+@define-color terminal-bg-color rgba (35, 33, 54, 0.92);
 @define-color fg-color #e0def4;
 @define-color accent-color #c4a7e7;
 
 @define-color selected-bg-color @accent-color;
 @define-color selected-fg-color @bg-color;
-@define-color tray-bg-color #ea9a97; 
+@define-color tray-bg-color #eb6f92; 
 @define-color tray-fg-color @bg-color;

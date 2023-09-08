@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 artist=$(playerctl -p spotify metadata 2> /dev/null |grep xesam:artist | sed 's/.* xesam:artist *//ig')
 title=$(playerctl -p spotify metadata 2> /dev/null |grep xesam:title | sed 's/.* xesam:title *//ig')
