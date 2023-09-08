@@ -100,7 +100,7 @@ window#waybar.floating, window#waybar.tiled{
     color: @fg-color;
 }
 
-#workspaces button.focused, #workspaces button.active, #workspaces button.visible{
+#workspaces button.focused, #workspaces button.active, #workspaces button.visible, #workspaces button.empty{
     background: @selected-bg-color;
     color: @selected-fg-color;
 }
