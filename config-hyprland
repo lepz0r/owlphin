@@ -1,9 +1,9 @@
 {
     "height": 32,
-    "modules-left": ["wlr/workspaces","custom/playerctl-prefix","custom/playerctl#suffix"],
+    "modules-left": ["hyprland/workspaces","custom/playerctl-prefix","custom/playerctl#suffix"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["custom/cpuprefix","cpu","custom/memoryprefix","memory","custom/timeprefix","clock#time","custom/cc","pulseaudio#prefix","tray","custom/trayright"],
-    "mode" : "dock",
+    "layer": "top",
     "sway/window": {
 	"format": " {} ",
         "max-length": 100,
