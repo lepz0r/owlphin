@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
+artist_maxlength=24
+title_maxlength=24
+
 artist=$(playerctl -p spotify metadata 2> /dev/null |grep xesam:artist | sed 's/.* xesam:artist *//ig')
 title=$(playerctl -p spotify metadata 2> /dev/null |grep xesam:title | sed 's/.* xesam:title *//ig')
 stat=$(playerctl -p spotify status 2> /dev/null)
-artist_maxlength=12
-title_maxlength=24
 
 artist_length=$(echo $artist | wc -m)
 title_length=$(echo $title | wc -m)
