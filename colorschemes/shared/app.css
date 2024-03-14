@@ -13,7 +13,7 @@ window#waybar.gimp{
 	color: #ffffff;
 }
 
-window#waybar.spotify, window#waybar.mpv, window#waybar.imv, window#waybar.glxgears{
+window#waybar.spotify, window#waybar.Spotify ,window#waybar.mpv, window#waybar.imv, window#waybar.glxgears{
         background: #000000;
 	color: #ffffff;
 }
@@ -29,7 +29,7 @@ window#waybar.DesktopEditors{
 
 /* Discord default theme */
 window#waybar.discord{
-        background: #36393f;
+        background: #313338;
         color: #f2f3f5;
 }
 

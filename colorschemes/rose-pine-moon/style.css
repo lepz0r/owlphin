@@ -2,7 +2,7 @@
 
 @define-color bg-color #232136;
 @define-color bar-bg-color @bg-color;
-@define-color terminal-bg-color rgba (35, 33, 54, 0.92);
+@define-color terminal-bg-color rgba (35, 33, 54, 0.93);
 @define-color fg-color #e0def4;
 @define-color accent-color #c4a7e7;
 
