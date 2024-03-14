@@ -1,5 +1,5 @@
-@import url("colorschemes/rose-pine-dawn/style.css");
-@import url("colorschemes/rose-pine-dawn/app.css");
+@import url("colorschemes/rose-pine-moon/style.css");
+@import url("colorschemes/rose-pine-moon/app.css");
 
 * {
     border: none;
@@ -39,7 +39,7 @@ window {
     color: @fg-color;
 }
 
-#window, #clock, #custom-timeprefix, #custom-cpuprefix, #custom-memoryprefix,#cpu, #custom-dateprefix, #custom-memoryprefix, #memory, #pulseaudio, #tray, #custom-playerctl, #custom-playerctl-prefix, #custom-cc{
+#window, #clock, #custom-timeprefix, #custom-cpuprefix, #custom-memoryprefix,#cpu, #custom-dateprefix, #custom-memoryprefix, #memory, #pulseaudio, #battery, #tray, #custom-playerctl, #custom-playerctl-prefix, #custom-cc{
 margin: 4px 0px 4px 0px;
 padding-right: 4px;
 }
@@ -109,7 +109,7 @@ window#waybar.floating, window#waybar.tiled{
     padding: 0 6px 0 0;
 }
 
-#clock.time, #custom-timeprefix{
+#clock.time, #custom-timeprefix, #battery{
     color : @fg-color;
     background-color: @bg-color;
 }

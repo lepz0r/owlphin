@@ -2,7 +2,7 @@
     "height": 32,
     "modules-left": ["hyprland/workspaces","custom/playerctl-prefix","custom/playerctl#suffix"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["custom/cpuprefix","cpu","custom/memoryprefix","memory","custom/timeprefix","clock#time","custom/cc","pulseaudio#prefix","tray","custom/trayright"],
+    "modules-right": ["custom/cpuprefix","cpu","custom/memoryprefix","memory","battery","custom/timeprefix","clock#time","custom/cc","pulseaudio#prefix","tray","custom/trayright"],
     "layer": "top",
     "sway/window": {
 	"format": " {} ",
@@ -20,6 +20,12 @@
     "clock#time": {
     	"format": "{:%H:%M}",
         "tooltip-format": "{:%a, %d %b %H:%M}",
+	"interval": 1
+    },
+    "battery": {
+	"format": " {icon} {capacity}%",
+	"format-charging": " 󰂄 {capacity}%",
+	"format-icons": ["󰁺", "󰁼", "󰁾", "󰂁", "󰁹"],
 	"interval": 1
     },
     "custom/playerctl-prefix": {
