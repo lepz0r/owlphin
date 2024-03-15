@@ -2,7 +2,12 @@
 
 ![preview](./images/preview.png)
 
-A rounded waybar theme with dynamic bar color support for Hyprland and sway.
+A rounded waybar theme with dynamic bar color for Hyprland and sway.
+
+## Requirements
+- Nerd Font for icons (default font is FantasqueSansM Nerd Font)
+- playerctl for music widget
+- sway or Hyprland for workspace & dynamic bar color
 
 ## Installation
 
