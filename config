@@ -1,8 +1,9 @@
 {
     "height": 32,
-    "modules-left": ["sway/workspaces","custom/playerctl-prefix","custom/playerctl#suffix"],
-    "modules-center": ["sway/window"],
-    "modules-right": ["custom/cpuprefix","cpu","custom/memoryprefix","memory","custom/timeprefix","clock#time","pulseaudio#prefix","tray","custom/cc","custom/trayright"],
+    "modules-left": ["hyprland/workspaces","custom/playerctl-prefix","custom/playerctl#suffix"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["custom/cpuprefix","cpu","custom/memoryprefix","memory","battery","custom/timeprefix","clock#time","custom/cc","pulseaudio#prefix","tray","custom/trayright"],
+    "layer": "top",
     "sway/window": {
 	"format": " {} ",
         "max-length": 100,
@@ -13,12 +14,18 @@
 	"sort-by-number" : true
     },
     "hyprland/window": {
-        "format": "{}",
+        "format": " {} ",
         "separate-outputs": false
     },
     "clock#time": {
     	"format": "{:%H:%M}",
         "tooltip-format": "{:%a, %d %b %H:%M}",
+	"interval": 1
+    },
+    "battery": {
+	"format": " {icon} {capacity}%",
+	"format-charging": " 󰂄 {capacity}%",
+	"format-icons": ["󰁺", "󰁼", "󰁾", "󰂁", "󰁹"],
 	"interval": 1
     },
     "custom/playerctl-prefix": {
@@ -50,9 +57,9 @@
     "memory": {
     	"tooltip-format": "{used:0.2f}/{total:0.2f} GB Used"
     },
-  "custom/cpuprefix": {
+    "custom/cpuprefix": {
     	"format": "  ",
-	  "tooltip": false
+	"tooltip": false
     },
     "custom/barpadding": {
      	"format": " ",
@@ -62,14 +69,14 @@
 	"format": "{usage}%"
     },
     "pulseaudio#prefix": {
-    	"format": "  {icon}",
+    	"format": " {icon}",
     	"format-muted": " 󰝟",
-	"format-icons": {
+	      "format-icons": {
         	"default": ["󰕿","󰖀", "󰕾"]
-    	},
-    },
-    "tray":{
-     	"format": "a",
+    	  },
+  },
+  "tray":{
+   	"format": "a",
 	"spacing": 10
     },
   "custom/cc": {
@@ -77,8 +84,8 @@
     "on-click": "swaync-client -t ",
     "tooltip": false
     },
-    "custom/trayright": {
-     	"format": " ",
+  "custom/trayright": {
+   	"format": " ",
 	"tooltip": false
     },
 
