@@ -2,6 +2,7 @@
   "height": 32,
   "modules-left": [
     "sway/workspaces",
+    "privacy",
     "custom/playerctl-prefix",
     "custom/playerctl#suffix"
   ],
