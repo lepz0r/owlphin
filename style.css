@@ -15,7 +15,7 @@
     font-size: 13px;
 }
 
-#pulseaudio, #custom-cc{
+#pulseaudio, #custom-cc, #privacy{
     background: @tray-bg-color;
     color: @tray-fg-color;
 }
@@ -68,7 +68,7 @@ window#waybar.floating, window#waybar.tiled{
 /* dynamic color for some apps */
 
 
-#custom-playerctl, #custom-playerctl-prefix, #privacy {
+#custom-playerctl, #custom-playerctl-prefix {
 	background: @bg-color;
 	color: @fg-color;
 }
