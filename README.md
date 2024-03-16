@@ -69,5 +69,6 @@ Available color schemes:
 - [fairyfloss](https://sailorhg.github.io/fairyfloss/)
 - [gruvbox](https://github.com/morhetz/gruvbox)
 - [noctis-lilac](https://github.com/liviuschera/noctis)
+- rose-pine
 - [rose-pine-dawn](https://rosepinetheme.com/)
 - [rose-pine-moon](https://rosepinetheme.com/) (default color scheme)
