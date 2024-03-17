@@ -75,4 +75,4 @@ Available color schemes:
 - [catppuccin-latte](https://github.com/catppuccin)
 - [catppuccin-frappe](https://github.com/catppuccin)
 - [catppuccin-macchiato](https://github.com/catppuccin)
-- [catppuccin-mochamocha](https://github.com/catppuccin)
+- [catppuccin-mocha](https://github.com/catppuccin)
