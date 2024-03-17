@@ -72,3 +72,7 @@ Available color schemes:
 - [rose-pine](https://rosepinetheme.com/)
 - [rose-pine-dawn](https://rosepinetheme.com/)
 - [rose-pine-moon](https://rosepinetheme.com/) (default color scheme)
+- [catppuccin-latte](https://github.com/catppuccin)
+- [catppuccin-frappe](https://github.com/catppuccin)
+- [catppuccin-macchiato](https://github.com/catppuccin)
+- [catppuccin-mochamocha](https://github.com/catppuccin)

@@ -1,0 +1,5 @@
+@import url("../shared/app.css");
+
+window#waybar.firefox, window#waybar.librewolf, window#waybar.LibreWolf, window#waybar.firedragon{
+        background: @crust;
+}
