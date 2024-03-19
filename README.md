@@ -76,3 +76,4 @@ Available color schemes:
 - [catppuccin-frappe](https://github.com/catppuccin)
 - [catppuccin-macchiato](https://github.com/catppuccin)
 - [catppuccin-mocha](https://github.com/catppuccin)
+- [iceberg](https://cocopon.github.io/iceberg.vim/)
