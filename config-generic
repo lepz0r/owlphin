@@ -1,0 +1,25 @@
+{
+  "modules-left": [
+    "custom/app",
+    "custom/playerctl-prefix",
+    "custom/playerctl#suffix"
+  ],
+  "modules-center": [
+    "clock#centered"
+  ],
+  "modules-right": [
+    "custom/cpuprefix",
+    "cpu",
+    "custom/memoryprefix",
+    "memory",
+    "battery",
+    "custom/cc",
+    "pulseaudio#prefix",
+    "tray",
+    "custom/trayright"
+  ],
+  "layer": "top",
+  "include": [
+    "~/.config/waybar/config-common"
+  ]
+}
