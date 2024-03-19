@@ -1,0 +1,16 @@
+{
+  "modules-right": [
+    "custom/cpuprefix",
+    "cpu",
+    "custom/memoryprefix",
+    "memory",
+    "battery",
+    "custom/timeprefix",
+    "clock#time",
+    "custom/cc",
+    "privacy",
+    "pulseaudio#prefix",
+    "tray",
+    "custom/trayright"
+  ]
+}

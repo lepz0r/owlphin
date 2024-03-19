@@ -1,25 +1,20 @@
 {
   "modules-left": [
-    "sway/workspaces",
-    "sway/mode",
+    "hyprland/workspaces",
     "custom/playerctl-prefix",
     "custom/playerctl#suffix"
   ],
   "modules-center": [
-    "sway/window"
+    "hyprland/window"
   ],
+
   "layer": "top",
   "include": [
     "~/.config/waybar/config-common",
     "~/.config/waybar/config-common-tiling"
   ],
-  "sway/window": {
+  "hyprland/window": {
     "format": " {} ",
-    "max-length": 100,
-    "tooltip": false
-  },
-  "sway/workspaces": {
-    "format": "{icon}",
-    "sort-by-number": true
+    "separate-outputs": false
   }
 }

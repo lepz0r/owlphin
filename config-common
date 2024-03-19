@@ -1,4 +1,5 @@
 {
+  "height": 32,
   "clock#time": {
     "format": "{:%H:%M}",
     "tooltip-format": "{:%a, %d %b %H:%M}",
@@ -18,6 +19,15 @@
   },
   "privacy": {
     "icon-size": 13
+  },
+  "clock#centered": {
+    "format": " {:%a, %d %b %H:%M} ",
+    "interval": 1
+  },
+  "custom/app": {
+    "format": " Applications ",
+    "tooltip": false,
+    "on-click": "nwg-drawer"
   },
   "custom/playerctl-prefix": {
     "exec": "~/.config/waybar/scripts/playerctl-status -s 2> /dev/null ",
