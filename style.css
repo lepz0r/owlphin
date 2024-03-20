@@ -2,133 +2,169 @@
 @import url("colorschemes/rose-pine-moon/app.css");
 
 * {
-    border: none;
-    font-family: FantasqueSansM Nerd Font;
-    font-size: 14;
+  border: none;
+  font-family: FantasqueSansM Nerd Font;
+  font-size: 14;
 }
 
-#custom-timeprefix, #custom-cpuprefix, #pulseaudio.prefix, #custom-dateprefix, #custom-cpuprefix, #custom-memoryprefix, #custom-playerctl-prefix, #privacy, #custom-playerctl-prefix{
-    font-size: 12px;
+#custom-timeprefix,
+#custom-cpuprefix,
+#pulseaudio.prefix,
+#custom-dateprefix,
+#custom-cpuprefix,
+#custom-memoryprefix,
+#custom-playerctl-prefix,
+#privacy,
+#custom-playerctl-prefix {
+  font-size: 12px;
 }
 
-#custom-playerctl-prefix{
-    font-size: 13px;
+#custom-playerctl-prefix {
+  font-size: 13px;
 }
 
-#pulseaudio, #custom-cc, #privacy{
-    background: @tray-bg-color;
-    color: @tray-fg-color;
+#pulseaudio,
+#custom-cc,
+#privacy {
+  background: @tray-bg-color;
+  color: @tray-fg-color;
 }
 
-
-#tray, #custom-trayright{
-	background: @tray-bg-color;
+#tray,
+#custom-trayright {
+  background: @tray-bg-color;
 }
 
 #custom-trayright {
-    	border-radius: 0px 16px 16px 0px ;
-	margin: 4px 4px 4px 0px;
-	padding-right: 4px;
+  border-radius: 0px 16px 16px 0px;
+  margin: 4px 4px 4px 0px;
+  padding-right: 4px;
 }
-
 
 window {
-    /* background: @fg-color; */
-    background: rgba(30, 30, 46, 0);
-    color: @fg-color;
+  /* background: @fg-color; */
+  background: rgba(30, 30, 46, 0);
+  color: @fg-color;
 }
 
-#window, #privacy, #clock, #custom-timeprefix, #custom-cpuprefix, #custom-memoryprefix,#cpu, #custom-dateprefix, #custom-memoryprefix, #memory, #pulseaudio, #battery, #tray, #custom-playerctl, #custom-playerctl-prefix, #custom-cc{
-margin: 4px 0px 4px 0px;
-padding-right: 4px;
+#window,
+#privacy,
+#clock,
+#custom-timeprefix,
+#custom-cpuprefix,
+#custom-memoryprefix,
+#cpu,
+#custom-dateprefix,
+#custom-memoryprefix,
+#memory,
+#pulseaudio,
+#battery,
+#tray,
+#custom-playerctl,
+#custom-playerctl-prefix,
+#mode,
+#custom-cc {
+  margin: 4px 0px 4px 0px;
+  padding-right: 4px;
 }
 
-
-#window, #clock.centered {
-	border-radius: 16px;
-        /*background: @bg-color;*/
-    	background: @bg-color;
-	padding: 3px;
+#window,
+#clock.centered {
+  border-radius: 16px;
+  /*background: @bg-color;*/
+  background: @bg-color;
+  padding: 3px;
 }
 
 #tray {
-	padding: 0px 6px 0px 6px;
-	margin-right:-6px;
+  padding: 0px 6px 0px 6px;
+  margin-right: -6px;
 }
 
-
-window#waybar.empty #window, window#waybar.solo #window{
-	background: transparent;
+window#waybar.empty #window,
+window#waybar.solo #window {
+  background: transparent;
 }
 
-window#waybar.floating, window#waybar.tiled{
-        background: transparent;
+window#waybar.floating,
+window#waybar.tiled {
+  background: transparent;
 }
 
 /* dynamic color for some apps */
 
-
-#custom-playerctl, #custom-playerctl-prefix {
-	background: @bg-color;
-	color: @fg-color;
+#custom-playerctl,
+#mode,
+#custom-playerctl-prefix {
+  background: @bg-color;
+  color: @fg-color;
 }
 
 #custom-playerctl {
-	border-radius: 0px 16px 16px 0px;
+  border-radius: 0px 16px 16px 0px;
 }
 
-#custom-barpadding{
-	font-size : 0px;
-	color: transparent;
+#custom-barpadding {
+  font-size: 0px;
+  color: transparent;
 }
 
-#workspaces, #custom-app {
-	all: initial;
-        background: @bg-color;
-	border-radius: 16px 0px 0px 16px ;
-        margin: 4px 0px 4px 4px;
-	padding: 3px;
-	color: @fg-color;
+#workspaces,
+#custom-app {
+  all: initial;
+  background: @bg-color;
+  border-radius: 16px 0px 0px 16px;
+  margin: 4px 0px 4px 4px;
+  padding: 3px;
+  color: @fg-color;
 }
 
 #custom-app {
-    font-family: FantasqueSansM Nerd Font;
-    font-size: 14;
+  font-family: FantasqueSansM Nerd Font;
+  font-size: 14;
 }
 
 #workspaces button {
-    all: initial;
-    padding: 0px 7px 0px 6px;
-    background: transparent;
-    border-radius: 16px;
-    color: @fg-color;
+  all: initial;
+  padding: 0px 7px 0px 6px;
+  background: transparent;
+  border-radius: 16px;
+  color: @fg-color;
 }
 
-#workspaces button.focused, #workspaces button.active, #workspaces button.visible, #workspaces button.empty{
-    background: @selected-bg-color;
-    color: @selected-fg-color;
+#workspaces button.focused,
+#workspaces button.active,
+#workspaces button.visible,
+#workspaces button.empty {
+  background: @selected-bg-color;
+  color: @selected-fg-color;
 }
 
 #clock {
-    padding: 0 6px 0 0;
+  padding: 0 6px 0 0;
 }
 
-#clock.time, #custom-timeprefix, #battery{
-    color : @fg-color;
-    background-color: @bg-color;
+#clock.time,
+#custom-timeprefix,
+#battery {
+  color: @fg-color;
+  background-color: @bg-color;
 }
 
-
-#clock.date, #custom-dateprefix, #custom-memoryprefix, #memory{
-    color : @fg-color;
-    background-color: @bg-color;
+#clock.date,
+#custom-dateprefix,
+#custom-memoryprefix,
+#memory {
+  color: @fg-color;
+  background-color: @bg-color;
 }
 
-#custom-cpuprefix, #cpu{
-    color : @fg-color;
-    background-color: @bg-color;
+#custom-cpuprefix,
+#cpu {
+  color: @fg-color;
+  background-color: @bg-color;
 }
 
-#custom-cpuprefix{
-    border-radius: 16px 0px 0px 16px ;
+#custom-cpuprefix {
+  border-radius: 16px 0px 0px 16px;
 }
