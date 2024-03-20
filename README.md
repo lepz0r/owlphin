@@ -5,6 +5,7 @@
 A rounded waybar theme with dynamic bar color for Hyprland and sway.
 
 ## Requirements
+
 - Nerd Font for icons (default font is FantasqueSansM Nerd Font)
 - playerctl for music widget
 - sway or Hyprland for workspace & dynamic bar color
@@ -18,17 +19,23 @@ git clone https://github.com/lepz0r/owlphin ~/.config/waybar
 ```
 
 #### Hyprland
+
 For Hyprland add this line below to `~/.config/hypr/hyprland.conf`.
+
 ```
 exec-once=waybar &
 ```
 
 #### sway
+
 For sway add this line below to `~/.config/sway/config`.
+
 ```
 exec waybar -c ~/.config/waybar/config-sway
 ```
+
 And don't forget to remove or comment out lines below to disable swaybar.
+
 ```
 #
 # Status Bar:
@@ -53,17 +60,20 @@ bar {
 ## Features
 
 - Now playing (requires playerctl)\
-![mpris](./images/mpris.png)
+  ![mpris](./images/mpris.png)
 - Dynamic bar color for single window
 
 ## Changing color scheme
+
 Owlphin shipped with color schemes below, to change the color scheme just change lines below in `style.css`
+
 ```
 @import url("colorschemes/<colorscheme_name>/style.css");
 @import url("colorschemes/<colorscheme_name>/app.css");
 ```
 
 Available color schemes:
+
 - [dracula](https://draculatheme.com/)
 - [everforest-light-medium](https://github.com/sainnhe/everforest)
 - [fairyfloss](https://sailorhg.github.io/fairyfloss/)
@@ -77,3 +87,4 @@ Available color schemes:
 - [catppuccin-macchiato](https://github.com/catppuccin)
 - [catppuccin-mocha](https://github.com/catppuccin)
 - [iceberg](https://cocopon.github.io/iceberg.vim/)
+- [nord](https://www.nordtheme.com/)
