@@ -1,6 +1,11 @@
 {
   "modules-right": [
-    "custom/cpuprefix",
+    "network#uplprefix",
+    "network#up",
+    "network#dnlprefix",
+    "network#down",
+    "network#cpuprefixon",
+    "network#cpuprefixoff",
     "cpu",
     "custom/memoryprefix",
     "memory",

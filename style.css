@@ -8,10 +8,9 @@
 }
 
 #custom-timeprefix,
-#custom-cpuprefix,
+#network.cpuprefixon,
 #pulseaudio.prefix,
 #custom-dateprefix,
-#custom-cpuprefix,
 #custom-memoryprefix,
 #custom-playerctl-prefix,
 #privacy,
@@ -19,7 +18,9 @@
   font-size: 12px;
 }
 
-#custom-playerctl-prefix {
+#custom-playerctl-prefix,
+#custom-dnlprefix,
+#network.uplprefix {
   font-size: 13px;
 }
 
@@ -51,9 +52,12 @@ window {
 #privacy,
 #clock,
 #custom-timeprefix,
-#custom-cpuprefix,
+#network.cpuprefixon,
+#network.uplprefix,
+#custom-dnlprefix,
 #custom-memoryprefix,
 #cpu,
+#network,
 #custom-dateprefix,
 #custom-memoryprefix,
 #memory,
@@ -159,12 +163,16 @@ window#waybar.tiled {
   background-color: @bg-color;
 }
 
-#custom-cpuprefix,
+#network.cpuprefixon,
+#network.uplprefix,
+#custom-dnlprefix,
+#network,
 #cpu {
   color: @fg-color;
   background-color: @bg-color;
 }
 
-#custom-cpuprefix {
+#network.uplprefix,
+#network.cpuprefixoff {
   border-radius: 16px 0px 0px 16px;
 }

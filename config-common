@@ -20,6 +20,26 @@
   "privacy": {
     "icon-size": 13
   },
+  "network#uplprefix": {
+    "format-wifi": " 󰬬 ",
+    "format-ethernet": " 󰬬 ",
+    "format-disconnected": "",
+    "tooltip": false
+  },
+  "network#dnlprefix": {
+    "format-wifi": " 󰬦 ",
+    "format-ethernet": " 󰬦 ",
+    "format-disconnected": "",
+    "tooltip": false
+  },
+  "network#up": {
+    "format-wifi": "{bandwidthUpBytes}",
+    "interval": 1
+  },
+  "network#down": {
+    "format-wifi": "{bandwidthDownBytes}",
+    "interval": 1
+  },
   "clock#centered": {
     "format": " {:%a, %d %b %H:%M} ",
     "interval": 1
@@ -58,7 +78,16 @@
   "memory": {
     "tooltip-format": "{used:0.2f}/{total:0.2f} GB Used"
   },
-  "custom/cpuprefix": {
+  "network#cpuprefixon": {
+    "format-wifi": "  ",
+    "format-ethernet": "  ",
+    "format-disconnected": "",
+    "tooltip": false
+  },
+  "network#cpuprefixoff": {
+    "format-wifi": "",
+    "format-ethernet": "",
+    "format-disconnected": "  ",
     "format": "  ",
     "tooltip": false
   },
