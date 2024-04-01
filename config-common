@@ -34,10 +34,12 @@
   },
   "network#up": {
     "format-wifi": "{bandwidthUpBytes}",
+    "format-ethernet": "{bandwidthUpBytes}",
     "interval": 1
   },
   "network#down": {
     "format-wifi": "{bandwidthDownBytes}",
+    "format-ethernet": "{bandwidthDownBytes}",
     "interval": 1
   },
   "clock#centered": {
@@ -121,5 +123,8 @@
   "custom/trayright": {
     "format": " ",
     "tooltip": false
+  },
+  "hyprland/workspaces": {
+    "format": "{id}"
   }
 }
