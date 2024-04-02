@@ -4,10 +4,12 @@
 @define-color fg-color #f8f8f2;
 @define-color accent-color #bd93f9;
 
+@define-color bg-color-transparent rgba(40,42,54,0.93);
+
 @define-color selected-bg-color @accent-color;
 @define-color selected-fg-color @fg-color;
 @define-color tray-bg-color @accent-color; 
 @define-color tray-fg-color @fg-color; 
 @define-color bar-bg-color @bg-color;
-@define-color terminal-bg-color @bg-color;
+@define-color terminal-bg-color @bg-color-transparent;
 
