@@ -71,7 +71,7 @@
     "format-stopped": "{dynamic} ",
     "dynamic-order": [
       "artist",
-      "album"
+      "title"
     ]
   },
   "custom/playerctl#prefix": {
