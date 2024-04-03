@@ -1,13 +1,12 @@
 {
   "modules-left": [
     "hyprland/workspaces",
-    "custom/playerctl-prefix",
-    "custom/playerctl#suffix"
+    "mpris#prefix",
+    "mpris#suffix"
   ],
   "modules-center": [
     "hyprland/window"
   ],
-
   "layer": "top",
   "include": [
     "~/.config/waybar/config-common",

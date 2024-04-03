@@ -1,8 +1,8 @@
 {
   "modules-left": [
     "custom/app",
-    "custom/playerctl-prefix",
-    "custom/playerctl#suffix"
+    "mpris#prefix",
+    "mpris#suffix"
   ],
   "modules-center": [
     "clock#centered"
@@ -17,7 +17,8 @@
     "cpu",
     "custom/memoryprefix",
     "memory",
-    "battery",
+    "battery#prefix",
+    "battery#suffix",
     "custom/cc",
     "pulseaudio#prefix",
     "tray",

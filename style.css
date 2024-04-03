@@ -3,25 +3,34 @@
 
 * {
   border: none;
-  font-family: FantasqueSansM Nerd Font;
-  font-size: 14;
+  font-family: FantasqueSansM Nerd Font Mono;
+  font-size: 16px;
 }
 
 #custom-timeprefix,
 #network.cpuprefixon,
-#pulseaudio.prefix,
+#network.cpuprefixoff,
 #custom-dateprefix,
 #custom-memoryprefix,
-#custom-playerctl-prefix,
-#privacy,
-#custom-playerctl-prefix {
-  font-size: 12px;
+#mpris.prefix,
+#network.dnlprefix,
+#custom-cc,
+#network.uplprefix {
+  font-size: 26px;
+  padding-right: 7px;
 }
 
-#custom-playerctl-prefix,
-#custom-dnlprefix,
-#network.uplprefix {
-  font-size: 13px;
+#battery.prefix {
+  padding-right: 7px;
+}
+
+#mpris.prefix {
+  padding-left: 8px;
+  margin-left: 3px;
+}
+
+#pulseaudio {
+  font-size: 14px;
 }
 
 #pulseaudio,
@@ -37,7 +46,7 @@
 }
 
 #custom-trayright {
-  border-radius: 0px 16px 16px 0px;
+  border-radius: 0px 19px 19px 0px;
   margin: 4px 4px 4px 0px;
   padding-right: 4px;
 }
@@ -52,9 +61,6 @@ window {
 #privacy,
 #clock,
 #custom-timeprefix,
-#network.cpuprefixon,
-#network.uplprefix,
-#custom-dnlprefix,
 #custom-memoryprefix,
 #cpu,
 #network,
@@ -64,20 +70,19 @@ window {
 #pulseaudio,
 #battery,
 #tray,
-#custom-playerctl,
-#custom-playerctl-prefix,
+#mpris,
 #mode,
 #custom-cc {
   margin: 4px 0px 4px 0px;
-  padding-right: 4px;
 }
 
 #window,
 #clock.centered {
-  border-radius: 16px;
+  border-radius: 19px;
   /*background: @bg-color;*/
   background: @bg-color;
   padding: 3px;
+  font-weight: bold;
 }
 
 #tray {
@@ -97,15 +102,14 @@ window#waybar.tiled {
 
 /* dynamic color for some apps */
 
-#custom-playerctl,
-#mode,
-#custom-playerctl-prefix {
+#mpris.suffix,
+#mode {
   background: @bg-color;
   color: @fg-color;
 }
 
-#custom-playerctl {
-  border-radius: 0px 16px 16px 0px;
+#mpris.suffix {
+  border-radius: 0px 19px 19px 0px;
 }
 
 #custom-barpadding {
@@ -117,22 +121,28 @@ window#waybar.tiled {
 #custom-app {
   all: initial;
   background: @bg-color;
-  border-radius: 16px 0px 0px 16px;
+  border-radius: 19px;
   margin: 4px 0px 4px 4px;
   padding: 3px;
   color: @fg-color;
 }
 
+#mode {
+  border-radius: 19px;
+  padding: 0px 6px;
+  margin-left: 3px;
+}
+
 #custom-app {
   font-family: FantasqueSansM Nerd Font;
-  font-size: 14;
+  font-size: 14px;
 }
 
 #workspaces button {
   all: initial;
-  padding: 0px 7px 0px 6px;
+  padding: 0px 9px 0px 8px;
   background: transparent;
-  border-radius: 16px;
+  border-radius: 19px;
   color: @fg-color;
 }
 
@@ -164,8 +174,8 @@ window#waybar.tiled {
 }
 
 #network.cpuprefixon,
-#network.uplprefix,
-#custom-dnlprefix,
+#network.uclprefix,
+#mpris.prefix,
 #network,
 #cpu {
   color: @fg-color;
@@ -173,6 +183,7 @@ window#waybar.tiled {
 }
 
 #network.uplprefix,
+#mpris.prefix,
 #network.cpuprefixoff {
-  border-radius: 16px 0px 0px 16px;
+  border-radius: 19px 0px 0px 19px;
 }

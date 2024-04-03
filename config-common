@@ -1,13 +1,13 @@
 {
-  "height": 32,
+  "height": 38,
   "clock#time": {
     "format": "{:%H:%M}",
     "tooltip-format": "{:%a, %d %b %H:%M}",
     "interval": 1
   },
-  "battery": {
-    "format": " {icon} {capacity}%",
-    "format-charging": " 󰂄 {capacity}%",
+  "battery#prefix": {
+    "format": " {icon}",
+    "format-charging": " 󰂄",
     "format-icons": [
       "󰁺",
       "󰁼",
@@ -17,18 +17,23 @@
     ],
     "interval": 1
   },
+  "battery#suffix": {
+    "format": "{capacity}%",
+    "interval": 1
+  },
   "privacy": {
-    "icon-size": 13
+    "icon-size": 13,
+    "icon-spacing": 0
   },
   "network#uplprefix": {
-    "format-wifi": " 󰬬 ",
-    "format-ethernet": " 󰬬 ",
+    "format-wifi": " 󰬬",
+    "format-ethernet": " 󰬬",
     "format-disconnected": "",
     "tooltip": false
   },
   "network#dnlprefix": {
-    "format-wifi": " 󰬦 ",
-    "format-ethernet": " 󰬦 ",
+    "format-wifi": " 󰬦",
+    "format-ethernet": " 󰬦",
     "format-disconnected": "",
     "tooltip": false
   },
@@ -51,14 +56,32 @@
     "tooltip": false,
     "on-click": "nwg-drawer"
   },
-  "custom/playerctl-prefix": {
+  "mpris#prefix": {
+    "format": "{status_icon}",
+    "status-icons": {
+      "playing": "",
+      "paused": "",
+      "stopped": ""
+    }
+  },
+  "mpris#suffix": {
+    "format": "",
+    "format-playing": "{dynamic} ",
+    "format-paused": "{dynamic} ",
+    "format-stopped": "{dynamic} ",
+    "dynamic-order": [
+      "artist",
+      "album"
+    ]
+  },
+  "custom/playerctl#prefix": {
     "exec": "~/.config/waybar/scripts/playerctl-status -s 2> /dev/null ",
-    "format": " {} ",
+    "format": "{}",
     "interval": 1
   },
   "custom/playerctl#suffix": {
     "exec": "~/.config/waybar/scripts/playerctl-status 2> /dev/null",
-    "format": "{} ",
+    "format": "{}  ",
     "interval": 1
   },
   "clock#date": {
@@ -66,7 +89,7 @@
     "interval": 1
   },
   "custom/timeprefix": {
-    "format": "  ",
+    "format": " ",
     "tooltip": false
   },
   "custom/dateprefix": {
@@ -74,23 +97,23 @@
     "tooltip": false
   },
   "custom/memoryprefix": {
-    "format": " 󰍛 ",
+    "format": " 󰍛",
     "tooltip": false
   },
   "memory": {
     "tooltip-format": "{used:0.2f}/{total:0.2f} GB Used"
   },
   "network#cpuprefixon": {
-    "format-wifi": "  ",
-    "format-ethernet": "  ",
+    "format-wifi": " ",
+    "format-ethernet": " ",
     "format-disconnected": "",
     "tooltip": false
   },
   "network#cpuprefixoff": {
     "format-wifi": "",
     "format-ethernet": "",
-    "format-disconnected": "  ",
-    "format": "  ",
+    "format-disconnected": " ",
+    "format": " ",
     "tooltip": false
   },
   "custom/barpadding": {
@@ -116,7 +139,7 @@
     "spacing": 10
   },
   "custom/cc": {
-    "format": " 󰍜 ",
+    "format": " 󰍜",
     "on-click": "swaync-client -t ",
     "tooltip": false
   },
