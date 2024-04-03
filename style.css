@@ -7,6 +7,12 @@
   font-size: 16px;
 }
 
+#leftside {
+  background-color: @bg-color;
+  border-radius: 19px;
+  margin: 4px 0px 4px 4px;
+}
+
 #custom-timeprefix,
 #network.cpuprefixon,
 #network.cpuprefixoff,
@@ -25,8 +31,7 @@
 }
 
 #mpris.prefix {
-  padding-left: 8px;
-  margin-left: 3px;
+  padding-left: 3px;
 }
 
 #pulseaudio {
@@ -70,7 +75,6 @@ window {
 #pulseaudio,
 #battery,
 #tray,
-#mpris,
 #mode,
 #custom-cc {
   margin: 4px 0px 4px 0px;
@@ -102,9 +106,8 @@ window#waybar.tiled {
 
 /* dynamic color for some apps */
 
-#mpris.suffix,
+#mpris,
 #mode {
-  background: @bg-color;
   color: @fg-color;
 }
 
@@ -120,9 +123,6 @@ window#waybar.tiled {
 #workspaces,
 #custom-app {
   all: initial;
-  background: @bg-color;
-  border-radius: 19px;
-  margin: 4px 0px 4px 4px;
   padding: 3px;
   color: @fg-color;
 }
@@ -175,7 +175,6 @@ window#waybar.tiled {
 
 #network.cpuprefixon,
 #network.uclprefix,
-#mpris.prefix,
 #network,
 #cpu {
   color: @fg-color;

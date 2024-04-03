@@ -1,8 +1,6 @@
 {
   "modules-left": [
-    "hyprland/workspaces",
-    "mpris#prefix",
-    "mpris#suffix"
+    "group/leftside"
   ],
   "modules-center": [
     "hyprland/window"
@@ -15,5 +13,13 @@
   "hyprland/window": {
     "format": " {} ",
     "separate-outputs": false
+  },
+  "group/leftside": {
+    "orientation": "horizontal",
+    "modules": [
+      "hyprland/workspaces",
+      "mpris#prefix",
+      "mpris#suffix"
+    ]
   }
 }
