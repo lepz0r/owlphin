@@ -4,12 +4,12 @@
 * {
   border: none;
   font-family: FantasqueSansM Nerd Font Mono;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 #leftside {
   background-color: @bg-color;
-  border-radius: 19px;
+  border-radius: 18px;
   margin: 4px 0px 4px 4px;
 }
 
@@ -51,7 +51,7 @@
 }
 
 #custom-trayright {
-  border-radius: 0px 19px 19px 0px;
+  border-radius: 0px 18px 18px 0px;
   margin: 4px 4px 4px 0px;
   padding-right: 4px;
 }
@@ -82,7 +82,7 @@ window {
 
 #window,
 #clock.centered {
-  border-radius: 19px;
+  border-radius: 18px;
   /*background: @bg-color;*/
   background: @bg-color;
   padding: 3px;
@@ -112,7 +112,7 @@ window#waybar.tiled {
 }
 
 #mpris.suffix {
-  border-radius: 0px 19px 19px 0px;
+  border-radius: 0px 18px 18px 0px;
   padding-right: 4px;
 }
 
@@ -129,7 +129,7 @@ window#waybar.tiled {
 }
 
 #mode {
-  border-radius: 19px;
+  border-radius: 18px;
   padding: 0px 6px;
   margin-left: 3px;
 }
@@ -143,7 +143,7 @@ window#waybar.tiled {
   all: initial;
   padding: 0px 9px 0px 8px;
   background: transparent;
-  border-radius: 19px;
+  border-radius: 18px;
   color: @fg-color;
 }
 
@@ -185,5 +185,5 @@ window#waybar.tiled {
 #network.uplprefix,
 #mpris.prefix,
 #network.cpuprefixoff {
-  border-radius: 19px 0px 0px 19px;
+  border-radius: 18px 0px 0px 18px;
 }

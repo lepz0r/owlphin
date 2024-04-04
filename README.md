@@ -20,10 +20,16 @@ git clone https://github.com/lepz0r/owlphin ~/.config/waybar
 
 #### Hyprland
 
-For Hyprland add this line below to `~/.config/hypr/hyprland.conf`.
+Add this line below to `~/.config/hypr/hyprland.conf`, by default `config` is symlinked to `config-hyprland` so just running waybar without running will use the Hyprland config.
 
 ```
 exec-once=waybar &
+```
+
+If you changed the `config` symlink to link to something else add this line below instead.
+
+```
+exec-once=waybar & -c ~/.config/waybar/config-hyprland
 ```
 
 #### sway
