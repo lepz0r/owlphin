@@ -27,7 +27,6 @@
 @define-color mantle #1e2030;
 @define-color crust #181926;
 
-
 @define-color base-transparent rgba (36, 49, 58, 0.93);
 
 @define-color bg-color @base;
@@ -38,5 +37,7 @@
 
 @define-color selected-bg-color @accent-color;
 @define-color selected-fg-color @bg-color;
-@define-color tray-bg-color @flamingo; 
+@define-color tray-bg-color @flamingo;
 @define-color tray-fg-color @bg-color;
+
+@import url("app.css");

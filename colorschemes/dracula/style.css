@@ -14,3 +14,5 @@
 @define-color tray-fg-color @fg-dark;
 @define-color bar-bg-color @bg-color;
 @define-color terminal-bg-color @bg-color-transparent;
+
+@import url("app.css");

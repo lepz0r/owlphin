@@ -1,5 +1,6 @@
-@import url("colorschemes/rose-pine-moon/style.css");
-@import url("colorschemes/rose-pine-moon/app.css");
+/* Don't edit this file, modify styleoptions.css if you want to change color */
+
+@import url("styleoptions.css");
 
 * {
   border: none;
@@ -86,7 +87,7 @@ window {
   /*background: @bg-color;*/
   background: @bg-color;
   padding: 3px;
-  font-weight: bold;
+  font-weight: Bold;
 }
 
 #tray {

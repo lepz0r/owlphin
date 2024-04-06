@@ -25,5 +25,7 @@
 
 @define-color selected-bg-color @accent-color;
 @define-color selected-fg-color @bg-color;
-@define-color tray-bg-color @rose; 
+@define-color tray-bg-color @rose;
 @define-color tray-fg-color @bg-color;
+
+@import url("app.css");

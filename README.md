@@ -71,11 +71,10 @@ bar {
 
 ## Changing color scheme
 
-Owlphin shipped with color schemes below, to change the color scheme just change lines below in `style.css`
+Owlphin shipped with color schemes below, to change the color scheme just change lines below in `styleoptions.css`
 
 ```
 @import url("colorschemes/<colorscheme_name>/style.css");
-@import url("colorschemes/<colorscheme_name>/app.css");
 ```
 
 Available color schemes:

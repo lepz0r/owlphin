@@ -1,0 +1,21 @@
+/* Use a color scheme */
+
+@import url("colorschemes/rose-pine-moon/style.css");
+
+/* Modify a colorscheme for example we can change accent color to Rosé Pine's Love */
+
+/* @define-color accent-color @love; */
+
+/* change another rules for colorscheme */
+
+/*
+@define-color bg-color @base;
+@define-color bar-bg-color @bg-color;
+@define-color terminal-bg-color @base-transparent;
+@define-color fg-color @text;
+
+@define-color selected-bg-color @accent-color;
+@define-color selected-fg-color @bg-color;
+@define-color tray-bg-color @pine;
+@define-color tray-fg-color @bg-color;
+*/

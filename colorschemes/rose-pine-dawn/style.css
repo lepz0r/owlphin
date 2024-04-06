@@ -10,3 +10,5 @@
 @define-color selected-fg-color @fg-color;
 @define-color tray-bg-color #f2e9e1;
 @define-color tray-fg-color @fg-color;
+
+@import url("app.css");

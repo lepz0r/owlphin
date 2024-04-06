@@ -22,11 +22,10 @@
 @define-color overlay0 #737994;
 @define-color surface2 #626880;
 @define-color surface1 #51576d;
-@define-color surface0 #414559 	;
+@define-color surface0 #414559;
 @define-color base #303446;
 @define-color mantle #292c3c;
 @define-color crust #232634;
-
 
 @define-color base-transparent rgba (48, 52, 70, 0.93);
 
@@ -38,5 +37,7 @@
 
 @define-color selected-bg-color @accent-color;
 @define-color selected-fg-color @bg-color;
-@define-color tray-bg-color @flamingo; 
+@define-color tray-bg-color @flamingo;
 @define-color tray-fg-color @bg-color;
+
+@import url("app.css");
