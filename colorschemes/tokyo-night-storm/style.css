@@ -1,0 +1,20 @@
+/* owlphin color scheme based on Tokyo Night Storm (https://github.com/folke/tokyonight.nvim) */
+
+@import url("../tokyo-night/style.css");
+@define-color bg-dark #1f2335;
+@define-color bg #24283b;
+
+@define-color base-transparent rgba(36, 40, 59, 0.93);
+
+@define-color bg-color @bg;
+@define-color bar-bg-color @bg-color;
+@define-color terminal-bg-color @base-transparent;
+@define-color fg-color @fg;
+@define-color accent-color @blue;
+
+@define-color selected-bg-color @accent-color;
+@define-color selected-fg-color @bg-color;
+@define-color tray-bg-color @blue;
+@define-color tray-fg-color @bg-color;
+
+@import url("app.css");

@@ -1,0 +1,54 @@
+/* owlphin color scheme based on Tokyo Night Day (https://github.com/folke/tokyonight.nvim) */
+
+@define-color bg-dark #e1e2e7;
+@define-color bg #e1e2e7;
+@define-color bg-highlight #c4c8da;
+@define-color terminal-black #a1a6c5;
+@define-color fg #3760bf;
+@define-color fg-dark #6172b0;
+@define-color fg-gutter #a8aecb;
+@define-color dark3 #8990b3;
+@define-color comment #848cb5;
+@define-color dark5 #68709a;
+@define-color blue0 #7890dd;
+@define-color blue #2e7de9;
+@define-color cyan #007197;
+@define-color blue1 #188092;
+@define-color blue2 #07879d;
+@define-color blue5 #006a83;
+@define-color blue6 #2e5857;
+@define-color blue7 #92a6d5;
+@define-color magenta #9854f1;
+@define-color magenta2 #d20065;
+@define-color purple #7847bd;
+@define-color orange #b15c00;
+@define-color yellow #8c6c3e;
+@define-color green #587539;
+@define-color green1 #387068;
+@define-color green2 #38919f;
+@define-color teal #118c74;
+@define-color red #f52a65;
+@define-color red1 #c64343;
+
+@define-color git-change #506d9c;
+@define-color git-add #4197a4;
+@define-color git-delete #c47981;
+
+@define-color gitsigns-change #6482bd;
+@define-color gitsigns-add #399a96;
+@define-color gitsigns-delete #c25d64;
+
+@define-color base-transparent rgba(255, 226, 231, 0.93);
+
+@define-color bg-color @bg;
+@define-color bar-bg-color @bg-color;
+@define-color terminal-bg-color @base-transparent;
+@define-color fg-color #000000;
+@define-color accent-color @blue;
+
+@define-color selected-bg-color @accent-color;
+@define-color selected-fg-color @bg-color;
+@define-color tray-bg-color @blue;
+@define-color tray-fg-color @bg-color;
+
+@import url("app.css");
