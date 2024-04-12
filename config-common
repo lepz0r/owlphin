@@ -3,7 +3,22 @@
   "clock#time": {
     "format": "{:%H:%M}",
     "tooltip-format": "{:%a, %d %b %H:%M}",
+    "interval": 1,
+    "tooltip": false
+  },
+  "clock#date": {
+    "format": "{:%a %b %d}",
     "interval": 1
+  },
+  "group/datetime": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "clock#time",
+      "clock#date"
+    ]
   },
   "battery#prefix": {
     "format": " {icon}",
@@ -82,10 +97,6 @@
   "custom/playerctl#suffix": {
     "exec": "~/.config/waybar/scripts/playerctl-status 2> /dev/null",
     "format": "{}  ",
-    "interval": 1
-  },
-  "clock#date": {
-    "format": "{:%a %b %d, %Y}",
     "interval": 1
   },
   "custom/timeprefix": {
