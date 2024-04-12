@@ -1,22 +1,33 @@
 {
   "modules-right": [
-    "network#uplprefix",
-    "network#up",
-    "network#dnlprefix",
-    "network#down",
-    "network#cpuprefixon",
-    "network#cpuprefixoff",
-    "cpu",
-    "custom/memoryprefix",
-    "memory",
-    "battery#prefix",
-    "battery#suffix",
-    "custom/timeprefix",
-    "clock#time",
-    "custom/cc",
-    "privacy",
-    "pulseaudio#prefix",
-    "tray",
-    "custom/trayright"
-  ]
+    "group/rightside"
+  ],
+  "group/rightside": {
+    "orientation": "horizontal",
+    "modules": [
+      "network#uplprefix",
+      "network#up",
+      "network#dnlprefix",
+      "network#down",
+      "network#cpuprefixon",
+      "network#cpuprefixoff",
+      "cpu",
+      "custom/memoryprefix",
+      "memory",
+      "battery#prefix",
+      "battery#suffix",
+      "custom/timeprefix",
+      "clock#time",
+      "group/traygroup"
+    ]
+  },
+  "group/traygroup": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/cc",
+      "privacy",
+      "pulseaudio#prefix",
+      "tray"
+    ]
+  }
 }

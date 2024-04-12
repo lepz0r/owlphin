@@ -1,29 +1,46 @@
 {
   "modules-left": [
-    "custom/app",
-    "mpris#prefix",
-    "mpris#suffix"
+    "group/leftside"
   ],
+  "group/leftside": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/app",
+      "mpris#prefix",
+      "mpris#suffix"
+    ]
+  },
   "modules-center": [
     "clock#centered"
   ],
   "modules-right": [
-    "network#uplprefix",
-    "network#up",
-    "network#dnlprefix",
-    "network#down",
-    "network#cpuprefixon",
-    "network#cpuprefixoff",
-    "cpu",
-    "custom/memoryprefix",
-    "memory",
-    "battery#prefix",
-    "battery#suffix",
-    "custom/cc",
-    "pulseaudio#prefix",
-    "tray",
-    "custom/trayright"
+    "group/rightside"
   ],
+  "group/rightside": {
+    "orientation": "horizontal",
+    "modules": [
+      "network#uplprefix",
+      "network#up",
+      "network#dnlprefix",
+      "network#down",
+      "network#cpuprefixon",
+      "network#cpuprefixoff",
+      "cpu",
+      "custom/memoryprefix",
+      "memory",
+      "battery#prefix",
+      "battery#suffix",
+      "group/traygroup#generic"
+    ]
+  },
+  "group/traygroup#generic": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/cc",
+      "pulseaudio#prefix",
+      "tray"
+    ]
+  },
   "layer": "top",
   "include": [
     "~/.config/waybar/config-common"
