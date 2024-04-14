@@ -25,6 +25,7 @@
   background-color: @tray-bg-color;
   border-radius: 0px 18px 18px 0px;
   color: @tray-fg-color;
+  padding-right: 16px;
 }
 
 #traygroup.generic {
@@ -81,8 +82,7 @@ window {
 }
 
 #tray {
-  padding: 0px 6px 0px 6px;
-  margin-right: 6px;
+  padding: 0px 0px 0px 6px;
 }
 
 window#waybar.empty #window,
