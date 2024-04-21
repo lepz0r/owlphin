@@ -1,9 +1,6 @@
 {
   "modules-left": [
-    "sway/workspaces",
-    "sway/mode",
-    "mpris#prefix",
-    "mpris#suffix"
+    "group/leftside"
   ],
   "modules-center": [
     "sway/window"
@@ -25,5 +22,14 @@
   "sway/mode": {
     "format": "{}",
     "max-length": 50
+  },
+  "group/leftside": {
+    "orientation": "horizontal",
+    "modules": [
+    "sway/workspaces",
+    "sway/mode",
+    "mpris#prefix",
+    "mpris#suffix"
+    ]
   }
 }
