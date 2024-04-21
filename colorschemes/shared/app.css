@@ -21,7 +21,8 @@ window#waybar.spotify,
 window#waybar.Spotify,
 window#waybar.mpv,
 window#waybar.imv,
-window#waybar.glxgears {
+window#waybar.glxgears,
+window#waybar.gamescope {
   background: #000000;
   color: #ffffff;
 }
