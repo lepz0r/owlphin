@@ -1,0 +1,56 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "height": 46,
+  "include": [
+    "~/.config/waybar/config-common"
+  ],
+  "group/centerbottom": {
+    "orientation": "horizontal",
+    "modules": [
+      "wlr/taskbar"
+    ]
+  },
+  "modules-center": [
+    "group/centerbottom"
+  ],
+  "modules-right": [
+    "group/bottomright"
+  ],
+  "group/bottomright": {
+    "orientation": "horizontal",
+    "modules": [
+      "user",
+      "custom/poweroff",
+      "custom/sleep",
+      "custom/exit"
+    ],
+    "drawer": {
+      "transition-left-to-right": false
+    }
+  },
+  "custom/poweroff": {
+    "format": "󰐥",
+    "on-click": "dbus-send --system --print-reply --dest=org.freedesktop.login1 /org/freedesktop/login1 org.freedesktop.login1.Manager.PowerOff boolean:true"
+  },
+  "custom/sleep": {
+    "format": "󰤄",
+    "on-click": "dbus-send --system --print-reply --dest=org.freedesktop.login1 /org/freedesktop/login1 org.freedesktop.login1.Manager.Suspend boolean:true"
+  },
+  "custom/exit": {
+    "format": "󰗽",
+    "on-click": "loginctl terminate-session $XDG_SESSION_ID"
+  },
+  "custom/switch-user": {
+    "format": "󰀙",
+    "on-click": "notify-send 'switch user'"
+  },
+  "user": {
+    "format": "{user}"
+  },
+  "wlr/taskbar": {
+    "sort-by-app-id": true,
+    "on-click": "minimize-raise",
+    "icon-size": 22
+  }
+}

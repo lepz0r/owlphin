@@ -8,10 +8,28 @@
   font-size: 14px;
 }
 
-#leftside {
+#leftside,
+#centerbottom,
+#bottomright {
   background-color: @bg-color;
   border-radius: 18px;
   margin: 4px 4px 4px 4px;
+}
+
+#bottomright {
+  padding: 0px 4px 0px 4px;
+}
+
+#custom-poweroff,
+#custom-sleep,
+#custom-exit {
+  font-size: 30px;
+  padding: 0px 6px 0px 6px;
+}
+
+#user label {
+  font-size: 18px;
+  padding: 0px 6px 0px 6px;
 }
 
 #rightside {
