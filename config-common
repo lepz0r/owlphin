@@ -40,6 +40,36 @@
     "icon-size": 13,
     "icon-spacing": 0
   },
+  "group/network": {
+    "orientation": "horizontal",
+    "drawer": {},
+    "modules": [
+      "network#status",
+      "network#uplprefix",
+      "network#up",
+      "network#dnlprefix",
+      "network#down"
+    ]
+  },
+  "network#statusprefix": {
+    "format-wifi": " ",
+    "format-ethernet": " 󰈀",
+    "format-disconnected": " 󰌙",
+    "tooltip-format": "{ifname} via {gwaddr} ",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-disconnected": "Disconnected"
+  },
+  "network#status": {
+    "format-wifi": "{signalStrength}%",
+    "format-ethernet": "LAN",
+    "format-disconnected": "",
+    "tooltip-format": "{ifname} via {gwaddr}",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+    "tooltip-format-ethernet": "{ifname}",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50
+  },
   "network#uplprefix": {
     "format-wifi": " 󰬬",
     "format-ethernet": " 󰬬",
@@ -120,10 +150,7 @@
     "format-disconnected": "",
     "tooltip": false
   },
-  "network#cpuprefixoff": {
-    "format-wifi": "",
-    "format-ethernet": "",
-    "format-disconnected": " ",
+  "custom/cpuprefix": {
     "format": " ",
     "tooltip": false
   },

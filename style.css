@@ -51,10 +51,10 @@
 }
 
 #custom-timeprefix,
-#network.cpuprefixon,
-#network.cpuprefixoff,
+#custom-cpuprefix,
 #custom-dateprefix,
 #custom-memoryprefix,
+#network.statusprefix,
 #mpris.prefix,
 #network.dnlprefix,
 #custom-cc,
