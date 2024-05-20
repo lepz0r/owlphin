@@ -9,15 +9,10 @@
 }
 
 #leftside,
-#centerbottom,
-#bottomright {
+#centerbottom {
   background-color: @bg-color;
   border-radius: 18px;
   margin: 4px 4px 4px 4px;
-}
-
-#bottomright {
-  padding: 0px 4px 0px 4px;
 }
 
 #custom-poweroff,
@@ -59,6 +54,7 @@
 #network.dnlprefix,
 #custom-cc,
 #network.uplprefix {
+  font-family: FantasqueSansM Nerd Font Mono;
   font-size: 26px;
   padding-right: 7px;
 }

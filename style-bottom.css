@@ -1,0 +1,7 @@
+@import url("style.css");
+
+.modules-right {
+  background-color: @bg-color;
+  border-radius: 18px;
+  margin: 4px 4px 4px 4px;
+}

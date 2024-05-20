@@ -19,12 +19,9 @@
   "group/rightside": {
     "orientation": "horizontal",
     "modules": [
-      "network#uplprefix",
-      "network#up",
-      "network#dnlprefix",
-      "network#down",
-      "network#cpuprefixon",
-      "network#cpuprefixoff",
+      "network#statusprefix",
+      "group/network",
+      "custom/cpuprefix",
       "cpu",
       "custom/memoryprefix",
       "memory",
