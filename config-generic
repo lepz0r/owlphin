@@ -41,5 +41,6 @@
   "layer": "top",
   "include": [
     "~/.config/waybar/config-common"
-  ]
+  ],
+  "_vim_": "# vim: set filetype=json:"
 }

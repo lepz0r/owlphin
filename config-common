@@ -187,5 +187,6 @@
   },
   "hyprland/workspaces": {
     "format": "{id}"
-  }
+  },
+  "_vim_": "# vim: set filetype=json:"
 }

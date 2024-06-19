@@ -52,5 +52,6 @@
     "sort-by-app-id": true,
     "on-click": "minimize-raise",
     "icon-size": 22
-  }
+  },
+  "_vim_": "# vim: set filetype=json:"
 }

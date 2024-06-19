@@ -26,5 +26,6 @@
       "pulseaudio#prefix",
       "tray"
     ]
-  }
+  },
+  "_vim_": "# vim: set filetype=json:"
 }

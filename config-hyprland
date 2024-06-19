@@ -21,5 +21,6 @@
       "mpris#prefix",
       "mpris#suffix"
     ]
-  }
+  },
+  "_vim_": "# vim: set filetype=json:"
 }
