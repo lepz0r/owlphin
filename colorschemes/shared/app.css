@@ -8,7 +8,8 @@ window#waybar.foot,
 window#waybar.kitty,
 window#waybar.Alacritty,
 window#waybar.urxvt,
-window#waybar.org\.wezfurlong\.wezterm {
+window#waybar.org\.wezfurlong\.wezterm,
+window#waybar.neovide {
   background: @terminal-bg-color;
 }
 
