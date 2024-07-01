@@ -19,3 +19,14 @@
 @define-color tray-bg-color @pine;
 @define-color tray-fg-color @bg-color;
 */
+
+/* disable dynamic coloring */
+
+window#waybar.solo {
+  background: transparent;
+}
+
+window#waybar.empty #window,
+window#waybar.solo #window {
+  background: @bar-bg-color;
+}

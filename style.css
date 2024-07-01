@@ -1,7 +1,5 @@
 /* Don't edit this file, modify styleoptions.css if you want to change color */
 
-@import url("styleoptions.css");
-
 * {
   border: none;
   font-family: FantasqueSansM Nerd Font Mono;
@@ -169,3 +167,5 @@ window#waybar.tiled {
 #network.cpuprefixoff {
   border-radius: 18px 0px 0px 18px;
 }
+
+@import url("styleoptions.css");
