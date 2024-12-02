@@ -2,12 +2,12 @@
   "height": 36,
   "clock#time": {
     "format": "{:%H:%M}",
-    "tooltip-format": "{:%a, %d %b %H:%M}",
+    "tooltip-format": "{:L%a, %d %b %H:%M}",
     "interval": 1,
     "tooltip": false
   },
   "clock#date": {
-    "format": "{:%a %b %d}",
+    "format": "{:L%a %b %d}",
     "interval": 1
   },
   "group/datetime": {
