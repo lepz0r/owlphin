@@ -1,10 +1,9 @@
 /* owlphin color scheme based on Tokyo Night Storm (https://github.com/enkia/tokyo-night-vscode-theme) */
-
 @import url("../tokyo-night/style.css");
 @define-color bg-dark #1f2335;
 @define-color bg #24283b;
 
-@define-color base-transparent rgba(36, 40, 59, 0.93);
+@define-color base-transparent rgba(36, 40, 59, 0.86);
 
 @define-color bg-color @bg;
 @define-color bar-bg-color @bg-color;

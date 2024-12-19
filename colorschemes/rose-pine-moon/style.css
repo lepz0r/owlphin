@@ -15,7 +15,7 @@
 @define-color highlight-med #44415a;
 @define-color highlight-high #56526e;
 
-@define-color base-transparent rgba (35, 33, 54, 0.93);
+@define-color base-transparent rgba (35, 33, 54, 0.86);
 
 @define-color bg-color @base;
 @define-color bar-bg-color @bg-color;

@@ -38,7 +38,7 @@
 @define-color gitsigns-add #266d6a;
 @define-color gitsigns-delete #b2555b;
 
-@define-color base-transparent rgba(26, 27, 38, 0.93);
+@define-color base-transparent rgba(26, 27, 38, 0.86);
 
 @define-color bg-color @bg;
 @define-color bar-bg-color @bg-color;

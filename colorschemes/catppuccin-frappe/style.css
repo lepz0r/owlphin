@@ -27,7 +27,7 @@
 @define-color mantle #292c3c;
 @define-color crust #232634;
 
-@define-color base-transparent rgba (48, 52, 70, 0.93);
+@define-color base-transparent rgba (48, 52, 70, 0.86);
 
 @define-color bg-color @base;
 @define-color bar-bg-color @bg-color;
