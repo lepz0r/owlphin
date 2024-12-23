@@ -152,8 +152,7 @@ window#waybar.tiled {
 
 #workspaces button.focused,
 #workspaces button.active,
-#workspaces button.visible,
-#workspaces button.empty {
+#workspaces button.visible {
   background: @selected-bg-color;
   color: @selected-fg-color;
 }

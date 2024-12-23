@@ -1,0 +1,26 @@
+{
+  "modules-left": [
+    "group/leftside"
+  ],
+  "modules-center": [
+    "niri/window"
+  ],
+  "layer": "top",
+  "include": [
+    "~/.config/waybar/config-common",
+    "~/.config/waybar/config-common-tiling"
+  ],
+  "niri/window": {
+    "format": " {} ",
+    "separate-outputs": false
+  },
+  "group/leftside": {
+    "orientation": "horizontal",
+    "modules": [
+      "niri/workspaces",
+      "mpris#prefix",
+      "mpris#suffix"
+    ]
+  },
+  "_vim_": "# vim: set filetype=json:"
+}
