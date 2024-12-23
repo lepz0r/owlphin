@@ -142,7 +142,8 @@
     "tooltip": false
   },
   "memory": {
-    "tooltip-format": "{used:0.2f}/{total:0.2f} GB Used"
+    "tooltip-format": "{used:0.2f}/{total:0.2f} GB Used",
+    "interval": 5
   },
   "network#cpuprefixon": {
     "format-wifi": " ",
@@ -159,7 +160,8 @@
     "tooltip": false
   },
   "cpu": {
-    "format": "{usage}%"
+    "format": "{usage}%",
+    "interval": 1
   },
   "pulseaudio#prefix": {
     "format": " {icon}",
