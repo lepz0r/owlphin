@@ -27,7 +27,6 @@ window#waybar.solo {
   background: transparent;
 }
 
-window#waybar.empty #window,
 window#waybar.solo #window {
   background: @bar-bg-color;
 }
