@@ -142,8 +142,7 @@
     "tooltip": false
   },
   "memory": {
-    "tooltip-format": "{used:0.2f}/{total:0.2f} GB Used",
-    "interval": 5
+    "tooltip-format": "{used:0.2f}/{total:0.2f} GB Used"
   },
   "network#cpuprefixon": {
     "format-wifi": " ",
@@ -160,10 +159,20 @@
     "tooltip": false
   },
   "cpu": {
-    "format": "{usage}%",
-    "interval": 1
+    "format": "{usage}%"
   },
   "pulseaudio#prefix": {
+    "format": " {icon}",
+    "format-muted": " 󰝟",
+    "format-icons": {
+      "default": [
+        "󰕿",
+        "󰖀",
+        "󰕾"
+      ]
+    }
+  },
+  "wireplumber#prefix": {
     "format": " {icon}",
     "format-muted": " 󰝟",
     "format-icons": {

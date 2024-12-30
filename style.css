@@ -65,7 +65,8 @@
   padding-left: 3px;
 }
 
-#pulseaudio {
+#pulseaudio,
+#wireplumber {
   font-size: 14px;
 }
 

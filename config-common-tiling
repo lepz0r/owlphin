@@ -23,7 +23,7 @@
     "modules": [
       "custom/cc",
       "privacy",
-      "pulseaudio#prefix",
+      "wireplumber#prefix",
       "tray"
     ]
   },
