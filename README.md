@@ -97,3 +97,5 @@ Available color schemes:
 - [tokyo-night-day](https://github.com/enkia/tokyo-night-vscode-theme)
 - [tokyo-night-moon](https://github.com/enkia/tokyo-night-vscode-theme)
 - [tokyo-night-storm](https://github.com/enkia/tokyo-night-vscode-theme)
+- [witchhazel](https://witchhazel.thea.codes/)
+- [witchhazel-hypercolor](https://witchhazel.thea.codes/)
