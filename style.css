@@ -3,13 +3,13 @@
 * {
   border: none;
   font-family: FantasqueSansM Nerd Font Mono;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #leftside,
 #centerbottom {
   background-color: @bg-color;
-  border-radius: 18px;
+  border-radius: 16px;
   margin: 4px 0px 4px 8px;
 }
 
@@ -27,7 +27,7 @@
 
 #rightside {
   background-color: @bg-color;
-  border-radius: 18px;
+  border-radius: 16px;
   margin: 4px 8px 4px 0px;
   color: @fg-color;
 }
@@ -54,15 +54,15 @@
 #network.uplprefix {
   font-family: FantasqueSansM Nerd Font Mono;
   font-size: 26px;
-  padding-right: 7px;
+  padding-right: 8px;
 }
 
 #battery.prefix {
-  padding-right: 7px;
+  padding-right: 8px;
 }
 
 #mpris.prefix {
-  padding-left: 3px;
+  padding-left: 4px;
 }
 
 #pulseaudio,
@@ -82,12 +82,12 @@ window {
 
 #window,
 #clock.centered {
-  border-radius: 18px;
+  border-radius: 16px;
   /*background: @bg-color;*/
   background: @bg-color;
-  padding: 3px;
+  padding: 4px 8px 4px 8px;
   font-weight: Bold;
-  margin: 4px 4px 4px 4px;
+  margin: 4px 8px 4px 4px;
 }
 
 #tray {
@@ -112,8 +112,7 @@ window#waybar.tiled {
 }
 
 #mpris.suffix {
-  border-radius: 0px 18px 18px 0px;
-  padding-right: 4px;
+  padding-right: 8px;
 }
 
 #custom-barpadding {
@@ -129,9 +128,9 @@ window#waybar.tiled {
 }
 
 #mode {
-  border-radius: 18px;
+  border-radius: 16px;
   padding: 0px 8px;
-  margin-left: 3px;
+  margin-left: 4px;
 }
 
 #custom-app {
@@ -143,7 +142,7 @@ window#waybar.tiled {
   all: initial;
   padding: 0px 10px 0px 9px;
   background: transparent;
-  border-radius: 18px;
+  border-radius: 16px;
   color: @fg-color;
 }
 
@@ -161,7 +160,7 @@ window#waybar.tiled {
 #network.uplprefix,
 #mpris.prefix,
 #network.cpuprefixoff {
-  border-radius: 18px 0px 0px 18px;
+  border-radius: 16px 0px 0px 18px;
 }
 
 @import url("styleoptions.css");
