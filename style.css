@@ -10,7 +10,7 @@
 #centerbottom {
   background-color: @bg-color;
   border-radius: 16px;
-  margin: 4px 0px 4px 8px;
+  margin: 8px 0px 8px 8px;
 }
 
 #custom-poweroff,
@@ -28,7 +28,7 @@
 #rightside {
   background-color: @bg-color;
   border-radius: 16px;
-  margin: 4px 8px 4px 0px;
+  margin: 8px 8px 8px 0px;
   color: @fg-color;
 }
 
@@ -85,9 +85,9 @@ window {
   border-radius: 16px;
   /*background: @bg-color;*/
   background: @bg-color;
-  padding: 4px 8px 4px 8px;
+  padding: 2px 8px 2px 8px;
   font-weight: Bold;
-  margin: 4px 8px 4px 4px;
+  margin: 8px 4px 8px 4px;
 }
 
 #tray {
@@ -140,9 +140,9 @@ window#waybar.tiled {
 
 #workspaces button {
   all: initial;
-  padding: 0px 10px 0px 9px;
+  padding: 0px 8px 0px 8px;
   background: transparent;
-  border-radius: 16px;
+  border-radius: 12px;
   color: @fg-color;
 }
 
