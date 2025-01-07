@@ -10,7 +10,7 @@
 #centerbottom {
   background-color: @bg-color;
   border-radius: 18px;
-  margin: 4px 4px 4px 4px;
+  margin: 4px 0px 4px 8px;
 }
 
 #custom-poweroff,
@@ -28,7 +28,7 @@
 #rightside {
   background-color: @bg-color;
   border-radius: 18px;
-  margin: 4px 8px 4px 4px;
+  margin: 4px 8px 4px 0px;
   color: @fg-color;
 }
 
@@ -80,10 +80,6 @@ window {
   color: @fg-color;
 }
 
-#window {
-  margin: 4px 0px 4px 0px;
-}
-
 #window,
 #clock.centered {
   border-radius: 18px;
@@ -128,13 +124,13 @@ window#waybar.tiled {
 #workspaces,
 #custom-app {
   all: initial;
-  padding: 3px;
+  padding: 4px;
   color: @fg-color;
 }
 
 #mode {
   border-radius: 18px;
-  padding: 0px 6px;
+  padding: 0px 8px;
   margin-left: 3px;
 }
 
@@ -145,7 +141,7 @@ window#waybar.tiled {
 
 #workspaces button {
   all: initial;
-  padding: 0px 9px 0px 8px;
+  padding: 0px 10px 0px 9px;
   background: transparent;
   border-radius: 18px;
   color: @fg-color;

@@ -1,5 +1,5 @@
 {
-  "height": 36,
+  "height": 40,
   "clock#time": {
     "format": "{:%H:%M}",
     "tooltip-format": "{:L%a, %d %b %H:%M}",
