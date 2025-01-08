@@ -2,7 +2,7 @@
 
 * {
   border: none;
-  font-family: FantasqueSansM Nerd Font Mono;
+  font-family: FantasqueSansM Nerd Font Propo;
   font-size: 16px;
 }
 
@@ -29,6 +29,7 @@
   background-color: @bg-color;
   border-radius: 16px;
   margin: 8px 8px 8px 0px;
+  padding-left: 8px;
   color: @fg-color;
 }
 
@@ -50,11 +51,8 @@
 #network.statusprefix,
 #mpris.prefix,
 #network.dnlprefix,
-#custom-cc,
 #network.uplprefix {
-  font-family: FantasqueSansM Nerd Font Mono;
-  font-size: 26px;
-  padding-right: 8px;
+  padding-right: 4px;
 }
 
 #battery.prefix {
@@ -65,10 +63,6 @@
   padding-left: 4px;
 }
 
-#pulseaudio,
-#wireplumber {
-  font-size: 14px;
-}
 
 #custom-trayright {
   padding-right: 4px;
