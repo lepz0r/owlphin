@@ -37,8 +37,8 @@
     "interval": 1
   },
   "privacy": {
-    "icon-size": 13,
-    "icon-spacing": 0
+    "icon-size": 12,
+    "icon-spacing": 8
   },
   "group/network": {
     "orientation": "horizontal",
@@ -184,8 +184,7 @@
     }
   },
   "tray": {
-    "format": "a",
-    "spacing": 10
+    "spacing": 8
   },
   "custom/cc": {
     "format": " 󰍜",

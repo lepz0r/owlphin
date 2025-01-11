@@ -29,7 +29,6 @@
   background-color: @bg-color;
   border-radius: 16px;
   margin: 8px 8px 8px 0px;
-  padding-left: 8px;
   color: @fg-color;
 }
 
@@ -38,6 +37,11 @@
   border-radius: 0px 18px 18px 0px;
   color: @tray-fg-color;
   padding-right: 16px;
+}
+
+#stats {
+  padding-left: 8px;
+  padding-right: 12px;
 }
 
 #traygroup.generic {
@@ -51,20 +55,8 @@
 #network.statusprefix,
 #mpris.prefix,
 #network.dnlprefix,
-#network.uplprefix {
-  padding-right: 4px;
-}
-
+#network.uplprefix,
 #battery.prefix {
-  padding-right: 8px;
-}
-
-#mpris.prefix {
-  padding-left: 4px;
-}
-
-
-#custom-trayright {
   padding-right: 4px;
 }
 
@@ -85,7 +77,12 @@ window {
 }
 
 #tray {
-  padding: 0px 0px 0px 6px;
+  padding: 0px 0px 0px 8px;
+}
+
+#privacy,
+#custom-cc {
+  padding: 0px 0px 0px 8px;
 }
 
 window#waybar.empty #window,
@@ -96,22 +93,6 @@ window#waybar.solo #window {
 window#waybar.floating,
 window#waybar.tiled {
   background: transparent;
-}
-
-/* dynamic color for some apps */
-
-#mpris,
-#mode {
-  color: @fg-color;
-}
-
-#mpris.suffix {
-  padding-right: 8px;
-}
-
-#custom-barpadding {
-  font-size: 0px;
-  color: transparent;
 }
 
 #workspaces,
@@ -145,16 +126,6 @@ window#waybar.tiled {
 #workspaces button.visible {
   background: @selected-bg-color;
   color: @selected-fg-color;
-}
-
-#clock {
-  padding: 0 8px 0 0;
-}
-
-#network.uplprefix,
-#mpris.prefix,
-#network.cpuprefixoff {
-  border-radius: 16px 0px 0px 18px;
 }
 
 @import url("styleoptions.css");
