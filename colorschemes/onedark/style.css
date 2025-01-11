@@ -1,0 +1,16 @@
+/* owlphin color scheme based on Witch Hazel (https://witchhazel.thea.codes/) */
+
+@define-color transparent rgba(33, 37, 43, 0.86);
+
+@define-color bg-color #21252b;
+@define-color bar-bg-color @bg-color;
+@define-color terminal-bg-color @transparent;
+@define-color fg-color #abb2bf;
+@define-color accent-color rgba(103, 118, 150, 0.38);
+
+@define-color selected-bg-color @accent-color;
+@define-color selected-fg-color @fg-color;
+@define-color tray-bg-color #282C34;
+@define-color tray-fg-color @fg-color;
+
+@import url("app.css");
