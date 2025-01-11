@@ -5,6 +5,13 @@
   "group/rightside": {
     "orientation": "horizontal",
     "modules": [
+      "group/stats",
+      "group/traygroup"
+    ]
+  },
+  "group/stats": {
+    "orientation": "horizontal",
+    "modules": [
       "network#statusprefix",
       "group/network",
       "custom/cpuprefix",
@@ -14,8 +21,7 @@
       "battery#prefix",
       "battery#suffix",
       "custom/timeprefix",
-      "group/datetime",
-      "group/traygroup"
+      "group/datetime"
     ]
   },
   "group/traygroup": {
