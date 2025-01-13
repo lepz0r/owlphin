@@ -90,6 +90,7 @@ Available color schemes:
 - [iceberg](https://cocopon.github.io/iceberg.vim/)
 - [noctis-lilac](https://github.com/liviuschera/noctis)
 - [nord](https://www.nordtheme.com/)
+- [onedark](https://github.com/atom/atom/tree/master/packages/one-dark-ui)
 - [rose-pine-dawn](https://rosepinetheme.com/)
 - [rose-pine-moon](https://rosepinetheme.com/) (default color scheme)
 - [rose-pine](https://rosepinetheme.com/)
