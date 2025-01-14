@@ -6,7 +6,7 @@ A rounded waybar theme with dynamic bar color for Hyprland and sway.
 
 ## Requirements
 
-- Nerd Font for icons (default font is FantasqueSansM Nerd Font)
+- Nerd Font for icons (default font is MonaspiceNe Nerd Font)
 - playerctl for music widget
 - sway or Hyprland for workspace & dynamic bar color
 
