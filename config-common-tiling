@@ -6,6 +6,7 @@
     "orientation": "horizontal",
     "modules": [
       "group/stats",
+      "custom/cc",
       "group/traygroup"
     ]
   },
@@ -27,7 +28,6 @@
   "group/traygroup": {
     "orientation": "horizontal",
     "modules": [
-      "custom/cc",
       "privacy",
       "wireplumber#prefix",
       "tray"

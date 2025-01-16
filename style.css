@@ -34,9 +34,10 @@
 
 #traygroup {
   background-color: @tray-bg-color;
-  border-radius: 0px 18px 18px 0px;
+  border-radius: 16px;
   color: @tray-fg-color;
-  padding-right: 16px;
+  padding-right: 8px;
+  margin: 4px;
 }
 
 #stats {
@@ -80,9 +81,12 @@ window {
   padding: 0px 0px 0px 8px;
 }
 
-#privacy,
-#custom-cc {
+#privacy {
   padding: 0px 0px 0px 8px;
+}
+
+#custom-cc {
+  padding: 0px 8px 0px 4px;
 }
 
 window#waybar.empty #window,
