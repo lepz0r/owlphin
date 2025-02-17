@@ -1,8 +1,19 @@
-/* Use a color scheme */
+/* Use a color scheme 
+
+To change color scheme replace line below with:
+@import url("colorschemes/<color_scheme>/style.css");
+
+*/
 
 @import url("colorschemes/rose-pine-moon/style.css");
 
-/* Modify a colorscheme for example we can change accent color to Rosé Pine's Love */
+/* Modify a colorscheme  
+Currently only Catppuccin, Rosé Pine & variant of previous color schemes support color name variables
+
+For example, to change accent color to Rosé Pine's Love
+@define-color accent-color @love; */
+
+*/
 
 /* @define-color accent-color @love; */
 
