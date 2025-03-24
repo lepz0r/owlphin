@@ -114,6 +114,7 @@
     "format-playing": "{dynamic} ",
     "format-paused": "{dynamic} ",
     "format-stopped": "{dynamic} ",
+    "dynamic-len": 50,
     "dynamic-order": [
       "artist",
       "title"
