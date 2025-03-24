@@ -23,6 +23,8 @@ window#waybar.Spotify,
 window#waybar.mpv,
 window#waybar.imv,
 window#waybar.glxgears,
+window#waybar.easyrpg-player,
+window#waybar.EasyRPG\ Player,
 window#waybar.gamescope {
   background: #000000;
 }
@@ -31,6 +33,8 @@ window#waybar.spotify #window,
 window#waybar.Spotify #window,
 window#waybar.mpv #window,
 window#waybar.imv #window,
+window#waybar.easyrpg-player #window,
+window#waybar.EasyRPG\ Player #window,
 window#waybar.glxgears #window,
 window#waybar.gamescope #window {
   color: #ffffff;
