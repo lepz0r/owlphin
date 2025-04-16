@@ -1,0 +1,18 @@
+/* owlphin color scheme based on kanagawa.nvim (wave variant) (https://github.com/rebelot/kanagawa.nvim) */
+
+@import url("../kanagawa-common/style.css");
+
+@define-color transparent alpha(@sumiInk3, 0.86);
+
+@define-color bg-color @sumiInk3;
+@define-color bar-bg-color @bg-color;
+@define-color terminal-bg-color @transparent;
+@define-color fg-color @fujiWhite;
+@define-color accent-color @crystalBlue;
+
+@define-color selected-bg-color @accent-color;
+@define-color selected-fg-color @bg-color;
+@define-color tray-bg-color @waveBlue2;
+@define-color tray-fg-color @fg-color;
+
+@import url("app.css");

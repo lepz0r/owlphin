@@ -1,0 +1,114 @@
+/* Kanagawa palettes, don't use this as colorscheme */
+
+@define-color sumiInk0 #16161D;
+@define-color sumiInk1 #181820;
+@define-color sumiInk2 #1a1a22;
+@define-color sumiInk3 #1F1F28;
+@define-color sumiInk4 #2A2A37;
+@define-color sumiInk5 #363646;
+@define-color sumiInk6 #54546D;
+
+@define-color waveBlue1 #223249;
+@define-color waveBlue2 #2D4F67;
+
+@define-color winterGreen #2B3328;
+@define-color winterYellow #49443C;
+@define-color winterRed #43242B;
+@define-color winterBlue #252535;
+@define-color autumnGreen #76946A;
+@define-color autumnRed #C34043;
+@define-color autumnYellow #DCA561;
+
+@define-color roninYellow #FF9E3B;
+@define-color waveAqua1 #6A9589;
+@define-color dragonBlue #658594;
+
+@define-color oldWhite #C8C093;
+@define-color fujiWhite #DCD7BA;
+@define-color fujiGray #727169;
+
+@define-color oniViolet #957FB8;
+@define-color oniViolet2 #b8b4d0;
+@define-color crystalBlue #7E9CD8;
+@define-color springViolet1 #938AA9;
+@define-color springViolet2 #9CABCA;
+@define-color springBlue #7FB4CA;
+@define-color lightBlue #A3D4D5;
+@define-color waveAqua2 #7AA89F;
+
+@define-color springGreen #98BB6C;
+@define-color boatYellow1 #938056;
+@define-color boatYellow2 #C0A36E;
+@define-color carpYellow #E6C384;
+
+@define-color sakuraPink #D27E99;
+@define-color waveRed #E46876;
+@define-color peachRed #FF5D62;
+@define-color surimiOrange #FFA066;
+@define-color katanaGray #717C7C;
+
+@define-color dragonBlack0 #0d0c0c;
+@define-color dragonBlack1 #12120f;
+@define-color dragonBlack2 #1D1C19;
+@define-color dragonBlack3 #181616;
+@define-color dragonBlack4 #282727;
+@define-color dragonBlack5 #393836;
+@define-color dragonBlack6 #625e5a;
+
+@define-color dragonWhite #c5c9c5;
+@define-color dragonGreen #87a987;
+@define-color dragonGreen2 #8a9a7b;
+@define-color dragonPink #a292a3;
+@define-color dragonOrange #b6927b;
+@define-color dragonOrange2 #b98d7b;
+@define-color dragonGray #a6a69c;
+@define-color dragonGray2 #9e9b93;
+@define-color dragonGray3 #7a8382;
+@define-color dragonBlue2 #8ba4b0;
+@define-color dragonViolet #8992a7;
+@define-color dragonRed #c4746e;
+@define-color dragonAqua #8ea4a2;
+@define-color dragonAsh #737c73;
+@define-color dragonTeal #949fb5;
+@define-color dragonYellow #c4b28a;
+
+@define-color lotusInk1 #545464;
+@define-color lotusInk2 #43436c;
+@define-color lotusGray #dcd7ba;
+@define-color lotusGray2 #716e61;
+@define-color lotusGray3 #8a8980;
+@define-color lotusWhite0 #d5cea3;
+@define-color lotusWhite1 #dcd5ac;
+@define-color lotusWhite2 #e5ddb0;
+@define-color lotusWhite3 #f2ecbc;
+@define-color lotusWhite4 #e7dba0;
+@define-color lotusWhite5 #e4d794;
+@define-color lotusViolet1 #a09cac;
+@define-color lotusViolet2 #766b90;
+@define-color lotusViolet3 #c9cbd1;
+@define-color lotusViolet4 #624c83;
+@define-color lotusBlue1 #c7d7e0;
+@define-color lotusBlue2 #b5cbd2;
+@define-color lotusBlue3 #9fb5c9;
+@define-color lotusBlue4 #4d699b;
+@define-color lotusBlue5 #5d57a3;
+@define-color lotusGreen #6f894e;
+@define-color lotusGreen2 #6e915f;
+@define-color lotusGreen3 #b7d0ae;
+@define-color lotusPink #b35b79;
+@define-color lotusOrange #cc6d00;
+@define-color lotusOrange2 #e98a00;
+@define-color lotusYellow #77713f;
+@define-color lotusYellow2 #836f4a;
+@define-color lotusYellow3 #de9800;
+@define-color lotusYellow4 #f9d791;
+@define-color lotusRed #c84053;
+@define-color lotusRed2 #d7474b;
+@define-color lotusRed3 #e82424;
+@define-color lotusRed4 #d9a594;
+@define-color lotusAqua #597b75;
+@define-color lotusAqua2 #5e857a;
+@define-color lotusTeal1 #4e8ca2;
+@define-color lotusTeal2 #6693bf;
+@define-color lotusTeal3 #5a7785;
+@define-color lotusCyan #d7e3d8;

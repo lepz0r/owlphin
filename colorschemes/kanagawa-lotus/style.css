@@ -1,0 +1,18 @@
+/* owlphin color scheme based on kanagawa.nvim (lotus variant) (https://github.com/rebelot/kanagawa.nvim) */
+
+@import url("../kanagawa-common/style.css");
+
+@define-color transparent alpha(@lotusWhite3, 0.86);
+
+@define-color bg-color @lotusWhite3;
+@define-color bar-bg-color @bg-color;
+@define-color terminal-bg-color @transparent;
+@define-color fg-color @lotusInk1;
+@define-color accent-color @lotusAqua;
+
+@define-color selected-bg-color @accent-color;
+@define-color selected-fg-color @bg-color;
+@define-color tray-bg-color @lotusBlue1;
+@define-color tray-fg-color @fg-color;
+
+@import url("app.css");

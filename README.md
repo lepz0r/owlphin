@@ -100,3 +100,6 @@ Available color schemes:
 - [tokyo-night-storm](https://github.com/enkia/tokyo-night-vscode-theme)
 - [witchhazel](https://witchhazel.thea.codes/)
 - [witchhazel-hypercolor](https://witchhazel.thea.codes/)
+- [kanagawa-wave](https://github.com/rebelot/kanagawa.nvim)
+- [kanagawa-lotus](https://github.com/rebelot/kanagawa.nvim)
+- [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim)
