@@ -1,0 +1,26 @@
+{
+  "modules-left": [
+    "group/leftside"
+  ],
+  "modules-center": [
+    "dwl/window"
+  ],
+  "layer": "top",
+  "include": [
+    "~/.config/waybar/config-common",
+    "~/.config/waybar/config-common-tiling"
+  ],
+  "hyprland/window": {
+    "format": " {} ",
+    "separate-outputs": false
+  },
+  "group/leftside": {
+    "orientation": "horizontal",
+    "modules": [
+      "dwl/tags",
+      "mpris#prefix",
+      "mpris#suffix"
+    ]
+  },
+  "_vim_": "# vim: set filetype=json:"
+}

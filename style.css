@@ -58,6 +58,7 @@
 #network.dnlprefix,
 #clock.date,
 #network.uplprefix,
+#clock.date,
 #battery.prefix {
   padding-right: 4px;
 }
@@ -101,6 +102,7 @@ window#waybar.tiled {
 }
 
 #workspaces,
+#tags,
 #custom-app {
   all: initial;
   padding: 4px;
@@ -118,7 +120,7 @@ window#waybar.tiled {
   font-size: 14px;
 }
 
-#workspaces button {
+#workspaces button, #tags button {
   all: initial;
   padding: 0px 8px 0px 8px;
   background: transparent;
@@ -128,7 +130,11 @@ window#waybar.tiled {
 
 #workspaces button.focused,
 #workspaces button.active,
-#workspaces button.visible {
+#workspaces button.visible,
+#tags button.focused,
+#tags button.active,
+#tags button.visible 
+{
   background: @selected-bg-color;
   color: @selected-fg-color;
 }
