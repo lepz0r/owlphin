@@ -27,7 +27,7 @@
 @define-color mantle #1e2030;
 @define-color crust #181926;
 
-@define-color base-transparent rgba (36, 49, 58, 0.86);
+@define-color base-transparent rgba (36, 39, 58, 0.86);
 
 @import url("../catppuccin-common/style.css");
 
