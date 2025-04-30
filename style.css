@@ -7,6 +7,21 @@
 }
 
 #leftside,
+#window,
+#clock.centered,
+#rightside {
+  box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.58);
+}
+
+window#waybar.solo #window,
+window#waybar.solo #leftside,
+window#waybar.solo #clock.centered,
+window#waybar.solo #rightside,
+window#waybar.empty #window {
+  box-shadow: initial;
+}
+
+#leftside,
 #centerbottom {
   background-color: @bg-color;
   border-radius: 16px;
@@ -56,7 +71,6 @@
 #network.statusprefix,
 #mpris.prefix,
 #network.dnlprefix,
-#clock.date,
 #network.uplprefix,
 #clock.date,
 #battery.prefix {
@@ -120,7 +134,8 @@ window#waybar.tiled {
   font-size: 14px;
 }
 
-#workspaces button, #tags button {
+#workspaces button,
+#tags button {
   all: initial;
   padding: 0px 8px 0px 8px;
   background: transparent;
@@ -133,8 +148,7 @@ window#waybar.tiled {
 #workspaces button.visible,
 #tags button.focused,
 #tags button.active,
-#tags button.visible 
-{
+#tags button.visible {
   background: @selected-bg-color;
   color: @selected-fg-color;
 }
