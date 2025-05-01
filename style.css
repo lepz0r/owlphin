@@ -10,7 +10,7 @@
 #window,
 #clock.centered,
 #rightside {
-  box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.58);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.58);
 }
 
 window#waybar.solo #window,
@@ -80,6 +80,7 @@ window#waybar.empty #window {
 window {
   /* background: @fg-color; */
   background: rgba(30, 30, 46, 0);
+  padding: 0px 8px 0px 8px;
   color: @fg-color;
 }
 
@@ -90,7 +91,7 @@ window {
   background: @bg-color;
   padding: 2px 8px 2px 8px;
   font-weight: Bold;
-  margin: 8px 4px 8px 4px;
+  margin: 8px 8px 8px 8px;
 }
 
 #tray {
