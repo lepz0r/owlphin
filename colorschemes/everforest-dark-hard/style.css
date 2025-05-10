@@ -1,8 +1,8 @@
 /* owlphin color scheme based on Everforest color scheme (https://github.com/sainnhe/everforest) */
 
-@define-color bg-color #fdf6e3;
-@define-color fg-color #5c6a72;
-@define-color accent-color #8da101;
+@define-color bg-color #272e33;
+@define-color fg-color #d3c6aa;
+@define-color accent-color #a7c080;
 
 @define-color selected-bg-color @accent-color;
 @define-color selected-fg-color @bg-color;
