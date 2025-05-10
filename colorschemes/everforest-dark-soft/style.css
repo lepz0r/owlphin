@@ -5,9 +5,9 @@
 @define-color accent-color #a7c080;
 
 @define-color selected-bg-color @accent-color;
-@define-color selected-fg-color @fg-color;
+@define-color selected-fg-color @bg-color;
 @define-color tray-bg-color @accent-color;
-@define-color tray-fg-color @fg-color;
+@define-color tray-fg-color @bg-color;
 @define-color bar-bg-color @bg-color;
 
 @import url("app.css");
