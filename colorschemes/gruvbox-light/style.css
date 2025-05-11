@@ -1,0 +1,14 @@
+/* owlphin color scheme based on Gruvbox color scheme (https://github.com/morhetz/gruvbox/) */
+
+@define-color bg-color #fbf1c7;
+@define-color fg-color #3c3836;
+@define-color accent-color #d65d0e;
+
+@define-color selected-bg-color @accent-color;
+@define-color selected-fg-color @bg-color;
+@define-color tray-bg-color @accent-color;
+@define-color tray-fg-color @bg-color;
+@define-color bar-bg-color @bg-color;
+@define-color terminal-bg-color @bg-color;
+
+@import url("app.css");
