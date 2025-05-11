@@ -1,13 +1,18 @@
 /* owlphin color scheme based on Everforest color scheme (https://github.com/sainnhe/everforest) */
+@import url("../everforest-common/everforest-light.css");
 
-@define-color bg-color #f3ead3;
-@define-color fg-color #5c6a72;
-@define-color accent-color #8da101;
+@define-color bg_dim #e5dfc5;
+@define-color bg0 #f3ead3;
+@define-color bg1 #eae4ca;
+@define-color bg2 #e5dfc5;
+@define-color bg3 #ddd8be;
+@define-color bg4 #d8d3ba;
+@define-color bg5 #b9c0ab;
+@define-color bg_visual #e1e4bd;
+@define-color bg_red #f4dbd0;
+@define-color bg_green #e5e6c5;
+@define-color bg_blue #e1e7dd;
+@define-color bg_yellow #f1e4c5;
 
-@define-color selected-bg-color @accent-color;
-@define-color selected-fg-color @bg-color;
-@define-color tray-bg-color @accent-color;
-@define-color tray-fg-color @bg-color;
-@define-color bar-bg-color @bg-color;
-
+@import url("../everforest-common/style.css");
 @import url("app.css");
