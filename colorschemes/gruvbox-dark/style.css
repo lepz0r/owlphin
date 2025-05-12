@@ -1,8 +1,29 @@
 /* owlphin color scheme based on Gruvbox color scheme (https://github.com/morhetz/gruvbox/) */
 
-@define-color bg-color #282828;
-@define-color fg-color #ebdbb2;
-@define-color accent-color #d65d0e;
+@import url("../gruvbox-common/style.css");
+
+@define-color bg0_h @dark_bg0_h;
+@define-color bg0_s @dark_bg0_s;
+@define-color bg0 @dark_bg0;
+@define-color bg1 @dark_bg1;
+@define-color bg2 @dark_bg2;
+@define-color bg3 @dark_bg3;
+@define-color bg4 @dark_bg4;
+@define-color light_gray @light_bg4;
+@define-color gray @light_gray_1;
+
+@define-color fg0 @light_bg0;
+@define-color fg1 @light_bg1;
+@define-color fg2 @light_bg2;
+@define-color fg3 @light_bg3;
+@define-color fg4 @light_bg4;
+
+@define-color bg @bg0;
+@define-color fg @fg1;
+
+@define-color bg-color @bg;
+@define-color fg-color @fg;
+@define-color accent-color @orange;
 
 @define-color selected-bg-color @accent-color;
 @define-color selected-fg-color @fg-color;

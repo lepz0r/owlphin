@@ -1,13 +1,34 @@
 /* owlphin color scheme based on Gruvbox color scheme (https://github.com/morhetz/gruvbox/) */
 
-@define-color bg-color #fbf1c7;
-@define-color fg-color #3c3836;
-@define-color accent-color #d65d0e;
+@import url("../gruvbox-common/style.css");
+
+@define-color bg0_h @light_bg0_h;
+@define-color bg0_s @light_bg0_s;
+@define-color bg0 @light_bg0;
+@define-color bg1 @light_bg1;
+@define-color bg2 @light_bg2;
+@define-color bg3 @light_bg3;
+@define-color bg4 @light_bg4;
+@define-color light_gray @dark_bg4;
+@define-color gray @light_gray_1;
+
+@define-color fg0 @dark_bg0;
+@define-color fg1 @dark_bg1;
+@define-color fg2 @dark_bg2;
+@define-color fg3 @dark_bg3;
+@define-color fg4 @dark_bg4;
+
+@define-color bg @bg0;
+@define-color fg @fg1;
+
+@define-color bg-color @bg;
+@define-color fg-color @fg;
+@define-color accent-color @orange;
 
 @define-color selected-bg-color @accent-color;
-@define-color selected-fg-color @bg-color;
+@define-color selected-fg-color @fg-color;
 @define-color tray-bg-color @accent-color;
-@define-color tray-fg-color @bg-color;
+@define-color tray-fg-color @fg-color;
 @define-color bar-bg-color @bg-color;
 @define-color terminal-bg-color @bg-color;
 

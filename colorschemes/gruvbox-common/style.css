@@ -1,0 +1,40 @@
+@define-color red #cc241d;
+@define-color green #98971a;
+@define-color yellow #d79921;
+@define-color blue #458588;
+@define-color purple #b16286;
+@define-color aqua #689d6a;
+@define-color orange #d65d0e;
+
+@define-color light_red #fb4934;
+@define-color light_green #b8bb26;
+@define-color light_yellow #fabd2f;
+@define-color light_blue #83a598;
+@define-color light_purple #d3869b;
+@define-color light_aqua #8ec07c;
+@define-color light_orange #fe8019;
+@define-color light_gray_1 #928374;
+
+@define-color dark_bg0_h #1d2021;
+@define-color dark_bg0_s #32302f;
+@define-color dark_bg0 #282828;
+@define-color dark_bg1 #3c3836;
+@define-color dark_bg2 #504945;
+@define-color dark_bg3 #665c54;
+@define-color dark_bg4 #7c6f64;
+
+@define-color light_bg0_h #f9f5d7;
+@define-color light_bg0_s #f2e5bc;
+@define-color light_bg0 #fbf1c7;
+@define-color light_bg1 #ebdbb2;
+@define-color light_bg2 #d5c4a1;
+@define-color light_bg3 #bdae93;
+@define-color light_bg4 #a89984;
+
+@define-color dark_red #9d0006;
+@define-color dark_green #79740e;
+@define-color dark_yellow #b57614;
+@define-color dark_blue #076678;
+@define-color dark_purple #8f3f71;
+@define-color dark_aqua #427b58;
+@define-color dark_orange #af3a03;
