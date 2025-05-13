@@ -1,0 +1,15 @@
+/* owlphin color scheme based on Rosé Pine color scheme (https://rosepinetheme.com) */
+@import url("../nord-common/style.css");
+
+@define-color bg-color @nord4;
+@define-color bar-bg-color @bg-color;
+@define-color terminal-bg-color alpha(@nord4, 0.86);
+@define-color fg-color @nord2;
+@define-color accent-color @nord7;
+
+@define-color selected-bg-color @accent-color;
+@define-color selected-fg-color @fg-color;
+@define-color tray-bg-color @nord5;
+@define-color tray-fg-color @fg-color;
+
+@import url("app.css");
