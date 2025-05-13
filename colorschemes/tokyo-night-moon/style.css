@@ -1,4 +1,4 @@
-/* owlphin color scheme based on Tokyo Night Moon (https://github.com/enkia/tokyo-night-vscode-theme) */
+/* owlphin color scheme based on folke's tokyonight.nvim Moon (https://github.com/folke/tokyonight.nvim) */
 
 @define-color bg_dark #1e2030;
 @define-color bg #222436;
@@ -38,17 +38,5 @@
 @define-color gitsigns-add @green;
 @define-color gitsigns-delete @red;
 
-@define-color base-transparent rgba(34, 36, 54, 0.86);
-
-@define-color bg-color @bg;
-@define-color bar-bg-color @bg-color;
-@define-color terminal-bg-color @base-transparent;
-@define-color fg-color @fg;
-@define-color accent-color @blue;
-
-@define-color selected-bg-color @accent-color;
-@define-color selected-fg-color @bg-color;
-@define-color tray-bg-color @blue;
-@define-color tray-fg-color @bg-color;
-
+@import url("../tokyo-night-common/style.css");
 @import url("app.css");

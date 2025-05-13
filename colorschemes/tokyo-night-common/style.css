@@ -1,0 +1,12 @@
+@define-color base-transparent alpha (@bg, 0.86);
+
+@define-color bg-color @bg;
+@define-color bar-bg-color @bg-color;
+@define-color terminal-bg-color @base-transparent;
+@define-color fg-color @fg;
+@define-color accent-color @blue;
+
+@define-color selected-bg-color @accent-color;
+@define-color selected-fg-color @bg-color;
+@define-color tray-bg-color @blue;
+@define-color tray-fg-color @bg-color;

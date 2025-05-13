@@ -4,7 +4,8 @@
 @define-color bg #e1e2e7;
 @define-color bg-highlight #c4c8da;
 @define-color terminal-black #a1a6c5;
-@define-color fg #3760bf;
+@define-color fg-blue #3760bf;
+@define-color fg #363c4d;
 @define-color fg-dark #6172b0;
 @define-color fg-gutter #a8aecb;
 @define-color dark3 #8990b3;
@@ -38,17 +39,5 @@
 @define-color gitsigns-add #399a96;
 @define-color gitsigns-delete #c25d64;
 
-@define-color base-transparent rgba(255, 226, 231, 0.86);
-
-@define-color bg-color @bg;
-@define-color bar-bg-color @bg-color;
-@define-color terminal-bg-color @base-transparent;
-@define-color fg-color #000000;
-@define-color accent-color @blue;
-
-@define-color selected-bg-color @accent-color;
-@define-color selected-fg-color @bg-color;
-@define-color tray-bg-color @blue;
-@define-color tray-fg-color @bg-color;
-
+@import url("../tokyo-night-common/style.css");
 @import url("app.css");
