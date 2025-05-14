@@ -1,0 +1,3 @@
+[submodule "colorschemes/rose-pine-common/rose-pine-colors"]
+	path = colorschemes/rose-pine-common/rose-pine-colors
+	url = https://github.com/rose-pine/waybar

@@ -1,31 +1,5 @@
 /* owlphin color scheme based on Rosé Pine Moon color scheme (https://rosepinetheme.com) */
-@define-color base #232136;
-@define-color surface #2a273f;
-@define-color overlay #393552;
-@define-color muted #6e6a86;
-@define-color subtle #908caa;
-@define-color text #e0def4;
-@define-color love #eb6f92;
-@define-color gold #f6c177;
-@define-color rose #ea9a97;
-@define-color pine #3e8fb0;
-@define-color foam #9ccfd8;
-@define-color iris #c4a7e7;
-@define-color highlight-low #2a283e;
-@define-color highlight-med #44415a;
-@define-color highlight-high #56526e;
 
-@define-color base-transparent rgba (35, 33, 54, 0.86);
-
-@define-color bg-color @base;
-@define-color bar-bg-color @bg-color;
-@define-color terminal-bg-color @base-transparent;
-@define-color fg-color @text;
-@define-color accent-color @iris;
-
-@define-color selected-bg-color @accent-color;
-@define-color selected-fg-color @bg-color;
-@define-color tray-bg-color @rose;
-@define-color tray-fg-color @bg-color;
-
+@import url("../rose-pine-common/rose-pine-colors/rose-pine-moon.css");
+@import url("../rose-pine-common/style.css");
 @import url("app.css");
