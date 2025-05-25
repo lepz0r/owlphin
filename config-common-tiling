@@ -6,7 +6,6 @@
     "orientation": "horizontal",
     "modules": [
       "group/stats",
-      "custom/cc",
       "group/traygroup"
     ]
   },
