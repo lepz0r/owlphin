@@ -2,9 +2,9 @@
 @define-color bar-bg-color @bg-color;
 @define-color terminal-bg-color @base-transparent;
 @define-color fg-color @text;
-@define-color accent-color @mauve;
+@define-color accent-color @blue;
 
 @define-color selected-bg-color @accent-color;
 @define-color selected-fg-color @bg-color;
-@define-color tray-bg-color @flamingo;
+@define-color tray-bg-color @overlay1;
 @define-color tray-fg-color @bg-color;
