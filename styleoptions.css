@@ -5,7 +5,7 @@ To change color scheme replace line below with:
 
 */
 
-@import url("colorschemes/rose-pine-moon/style.css");
+@import url("colorschemes/catppuccin-frappe/style.css");
 
 /* Modify a colorscheme  
 Currently only Catppuccin, Rosé Pine & variant of previous color schemes support color name variables
