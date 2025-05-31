@@ -6,5 +6,5 @@
 
 @define-color selected-bg-color @accent-color;
 @define-color selected-fg-color @bg-color;
-@define-color tray-bg-color @overlay1;
-@define-color tray-fg-color @bg-color;
+@define-color tray-bg-color @crust;
+@define-color tray-fg-color @fg-color;
