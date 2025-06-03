@@ -101,6 +101,11 @@ window {
   padding: 0px 8px 0px 4px;
 }
 
+window#waybar,
+#window {
+  transition: background 0.2s ease;
+}
+
 window#waybar.empty #window,
 window#waybar.solo #window {
   background: transparent;
