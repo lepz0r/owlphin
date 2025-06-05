@@ -101,8 +101,12 @@ window {
   padding: 0px 8px 0px 4px;
 }
 
-window#waybar {
+window#waybar.solo {
   transition: background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+window#waybar {
+  transition: background 0.2s ease-in;
 }
 
 window#waybar.empty,
@@ -111,7 +115,7 @@ window#waybar.empty #window {
 }
 
 window#waybar #window {
-  transition: background 0.1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: background 0.1s ease-in;
 }
 
 window#waybar.solo #window {
