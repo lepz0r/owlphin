@@ -1,0 +1,5 @@
+@import url("../shared/app.css");
+
+window#waybar.solo {
+  background: #241B2F;
+}

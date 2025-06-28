@@ -1,0 +1,18 @@
+/* owlphin color scheme based on SynthWave '84 VSCode theme (https://github.com/robb0wen/synthwave-vscode) */
+
+@define-color bg-color #241B2F;
+@define-color fg-color #ffffff;
+@define-color accent-color #ff7edb;
+
+@define-color bg-color-transparent alpha(@bg-color, 0.84);
+
+@define-color fg-dark #44475a;
+
+@define-color selected-bg-color @accent-color;
+@define-color selected-fg-color @fg-color;
+@define-color tray-bg-color #03edf9;
+@define-color tray-fg-color @bg-color;
+@define-color bar-bg-color @bg-color;
+@define-color terminal-bg-color @bg-color-transparent;
+
+@import url("app.css");
